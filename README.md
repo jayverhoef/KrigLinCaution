@@ -54,13 +54,13 @@ Run R Scripts
 After the package is installed, the script used for all analyses is the file 'realDataFigures.R' in the inst/doc folder.  To see where that is in your file system use:
 
 ```
-system.file("inst/doc/KrigLinCaution.R", package = "KrigLinCaution")
+system.file("doc/KrigLinCaution.R", package = "KrigLinCaution")
 ```
 
 To run the whole script from within R use:
 
 ```
-source(system.file("inst/doc/KrigLinCaution.R", package = "KrigLinCaution"))
+source(system.file("doc/KrigLinCaution.R", package = "KrigLinCaution"))
 ```
 
 
