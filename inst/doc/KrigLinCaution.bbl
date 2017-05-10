@@ -1,0 +1,371 @@
+\begin{thebibliography}{71}
+\newcommand{\enquote}[1]{``#1''}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Ababou et~al.(1994)Ababou, Bagtzoglou, and Wood}]{Abab:cond:1994}
+Ababou, R., Bagtzoglou, A.~C., and Wood, E.~F. (1994), \enquote{On the
+  condition number of covariance matrices in kriging, estimation, and
+  simulation of random fields,} \textit{Mathematical Geology}, 26, 99--133.
+
+\bibitem[{Akaike(1973)}]{Akai:Info:1973}
+Akaike, H. (1973), \enquote{Information Theory and an Extension of the Maximum
+  Likelihood Principle,} in \textit{Second International Symposium on
+  Information Theory}, eds. Petrov, B. and Csaki, F., Budapest: Akademiai
+  Kiado, pp. 267--281.
+
+\bibitem[{Banerjee(2005)}]{Bane:geod:2005}
+Banerjee, S. (2005), \enquote{On geodetic distance computations in spatial
+  modeling,} \textit{Biometrics}, 61, 617--625.
+
+\bibitem[{Banerjee et~al.(2008)Banerjee, Gelfand, Finley, and
+  Sang}]{Bane:Gelf:Finl:Sang:gaus:2008}
+Banerjee, S., Gelfand, A.~E., Finley, A.~O., and Sang, H. (2008),
+  \enquote{Gaussian predictive process models for large spatial data sets,}
+  \textit{Journal of the Royal Statistical Society: Series B (Statistical
+  Methodology)}, 70, 825--848.
+
+\bibitem[{Barry and Ver~Hoef(1996)}]{Barr:Ver:blac:1996}
+Barry, R.~P. and Ver~Hoef, J.~M. (1996), \enquote{Blackbox Kriging: {S}patial
+  Prediction without Specifying Variogram Models,} \textit{Journal of
+  Agricultural, Biological, and Environmental Statistics}, 1, 297--322.
+
+\bibitem[{Bivand et~al.(2008)Bivand, Pebesma, and
+  Gomez-Rubio}]{Biva:Pebe:Gome:appl:2008}
+Bivand, R.~S., Pebesma, E.~J., and Gomez-Rubio, V. (2008), \textit{Applied
+  Spatial Data Analysis with {R}}, Springer, NY.
+
+\bibitem[{Booker et~al.(1999)Booker, Dennis~Jr, Frank, Serafini, Torczon, and
+  Trosset}]{Book:Denn:Fran:Sera:etal:rigo:1999}
+Booker, A.~J., Dennis~Jr, J., Frank, P.~D., Serafini, D.~B., Torczon, V., and
+  Trosset, M.~W. (1999), \enquote{A rigorous framework for optimization of
+  expensive functions by surrogates,} \textit{Structural optimization}, 17,
+  1--13.
+
+\bibitem[{Bradburd et~al.(2013)Bradburd, Ralph, and
+  Coop}]{Brad:Ralp:Coop:dise:2013}
+Bradburd, G.~S., Ralph, P.~L., and Coop, G.~M. (2013), \enquote{Disentangling
+  the effects of geographic and ecological isolation on genetic
+  differentiation,} \textit{Evolution}, 67, 3258--3273.
+
+\bibitem[{Burnham and Anderson(2002)}]{Burn:Ande:mode:2002}
+Burnham, K.~P. and Anderson, D.~R. (2002), \textit{Model Selection and
+  Multimodel Inference: A Practical Information-Theoretic Approach}, New York:
+  Springer-Verlag Inc.
+
+\bibitem[{Chiles and Delfiner(1999)}]{Chil:Delf:geos:1999}
+Chiles, J.-P. and Delfiner, P. (1999), \textit{Geostatistics: Modeling Spatial
+  Uncertainty}, New York: John Wiley \& Sons.
+
+\bibitem[{Cressie(1985)}]{Cres:fitt:1985}
+Cressie, N. (1985), \enquote{Fitting Models by Weighted Least Squares,}
+  \textit{Journal of the International Association for Mathematical Geology},
+  17, 563--586.
+
+\bibitem[{Cressie(1990)}]{Cres:orig:1990}
+--- (1990), \enquote{The Origins of Kriging,} \textit{Mathematical Geology},
+  22, 239--252.
+
+\bibitem[{Cressie et~al.(2006)Cressie, Frey, Harch, and
+  Smith}]{Cres:Frey:Harc:Smit:spat:2006}
+Cressie, N., Frey, J., Harch, B., and Smith, M. (2006), \enquote{Spatial
+  Prediction on a River Network,} \textit{Journal of Agricultural, Biological,
+  and Environmental Statistics}, 11, 127--150.
+
+\bibitem[{Cressie and Johannesson(2008)}]{Cres:Gard:fixe:2008}
+Cressie, N. and Johannesson, G. (2008), \enquote{Fixed rank kriging for very
+  large spatial data sets,} \textit{Journal of the Royal Statistical Society,
+  Series B}, 70, 209--226.
+
+\bibitem[{Cressie and Lahiri(1996)}]{Cres:Lahi:asym:1996}
+Cressie, N. and Lahiri, S.~N. (1996), \enquote{Asymptotics for {REML}
+  Estimation of Spatial Covariance Parameters,} \textit{Journal of Statistical
+  Planning and Inference}, 50, 327--341.
+
+\bibitem[{Cressie and Majure(1997)}]{Cres:Maju:spat:1997}
+Cressie, N. and Majure, J.~J. (1997), \enquote{Spatio-temporal statistical
+  modeling of livestock waste in streams,} \textit{Journal of Agricultural,
+  Biological, and Environmental Statistics}, 24--47.
+
+\bibitem[{Cressie(1993)}]{Cres:stat:1993}
+Cressie, N. A.~C. (1993), \textit{Statistics for Spatial Data, Revised
+  Edition}, New York: John Wiley \& Sons.
+
+\bibitem[{Curriero(2006)}]{Curr:NonE:2006}
+Curriero, F.~C. (2006), \enquote{On the use of non-Euclidean distance measures
+  in geostatistics,} \textit{Mathematical Geology}, 38, 907--926.
+
+\bibitem[{Diamond and Armstrong(1984)}]{Diam:Arms:robu:1984}
+Diamond, P. and Armstrong, M. (1984), \enquote{Robustness of variograms and
+  conditioning of kriging matrices,} \textit{Mathematical Geology}, 16,
+  809--822.
+
+\bibitem[{Ecker and Gelfand(1997)}]{Ecke:Gelf:baye:1997}
+Ecker, M.~D. and Gelfand, A.~E. (1997), \enquote{Bayesian variogram modeling
+  for an isotropic spatial process,} \textit{Journal of Agricultural,
+  Biological, and Environmental Statistics}, 347--369.
+
+\bibitem[{Fortin and Dale(2005)}]{Fort:Dale:spat:2005}
+Fortin, M.-J. and Dale, M. R.~T. (2005), \textit{Spatial Analysis: A Guide for
+  Ecologists}, Cambridge, UK: Cambridge University Press.
+
+\bibitem[{Gandin(1963)}]{Gand:obje:1963}
+Gandin, L.~S. (1963), \textit{Objective Analysis of Meteorological Fields},
+  vol. 242, Gidrometeorologichoskoe Izdatel'stvo (GIMIZ), Leningrad,
+  (translated by Israel Program for Scientific Translations Jerusalem, 1965).
+
+\bibitem[{Gardner et~al.(2003)Gardner, Sullivan, and
+  Lembo~Jr.}]{Gard:Sull:Lemb:pred:2003}
+Gardner, B., Sullivan, P.~J., and Lembo~Jr., A.~J. (2003), \enquote{Predicting
+  Stream Temperatures: Geostatistical Model Comparison Using Alternative
+  Distance Metrics,} \textit{Canadian Journal of Fisheries and Aquatic
+  Sciences}, 60, 344--351.
+
+\bibitem[{Gelfand et~al.(2012)Gelfand, Banerjee, and
+  Finley}]{Gelf:Bane:Finl:spat:2012}
+Gelfand, A.~E., Banerjee, S., and Finley, A.~O. (2012), \enquote{Spatial design
+  for knot selection in knot-based dimension reduction models,}
+  \textit{Spatio-Temporal Design: Advances in Efficient Data Acquisition},
+  142--169.
+
+\bibitem[{Gneiting(2013)}]{Gnei:stri:2013}
+Gneiting, T. (2013), \enquote{Strictly and non-strictly positive definite
+  functions on spheres,} \textit{Bernoulli}, 19, 1327--1349.
+
+\bibitem[{Goovaerts(1997)}]{Goov:geos:1997}
+Goovaerts, P. (1997), \textit{Geostatistics for Natural Resources Evaluation},
+  New York, NY: Oxford University Press.
+
+\bibitem[{Guillot et~al.(2014)Guillot, Schilling, Porcu, and
+  Bevilacqua}]{Guil:Schi:Porc:Bevi:vali:2014}
+Guillot, G., Schilling, R.~L., Porcu, E., and Bevilacqua, M. (2014),
+  \enquote{Validity of covariance models for the analysis of geographical
+  variation,} \textit{Methods in Ecology and Evolution}, 5, 329--335.
+
+\bibitem[{Henderson and Searle(1981)}]{Hend:Sear:on:1981}
+Henderson, H. and Searle, S.~R. (1981), \enquote{On Deriving the Inverse of a
+  Sum of Matrices,} \textit{SIAM Review}, 50, 53--60.
+
+\bibitem[{Heyde(1994)}]{Heyd:quas:1994}
+Heyde, C.~C. (1994), \enquote{A Quasi-likelihood Approach to the {REML}
+  Estimating Equations,} \textit{Statistics \& Probability Letters}, 21,
+  381--384.
+
+\bibitem[{Higdon(1998)}]{Higd:proc:1998}
+Higdon, D. (1998), \enquote{A Process-convolution Approach to Modelling
+  Temperatures in the {N}orth {A}tlantic {O}cean ({D}isc: P191-192),}
+  \textit{Environmental and Ecological Statistics}, 5, 173--190.
+
+\bibitem[{Higdon et~al.(1999)Higdon, Swall, and
+  Kern}]{Higd:Swal:Kern:non-:1999}
+Higdon, D., Swall, J., and Kern, J. (1999), \enquote{Non-stationary Spatial
+  Modeling,} in \textit{Bayesian Statistics 6 -- Proceedings of the Sixth
+  Valencia International Meeting}, eds. Bernardo, J.~M., Berger, J.~O., Dawid,
+  A.~P., and Smith, A., Clarendon Press [Oxford University Press], pp.
+  761--768.
+
+\bibitem[{Hoeting et~al.(2006)Hoeting, Davis, Merton, and
+  Thompson}]{Hoet:Davi:Mert:Thom:mode:2006}
+Hoeting, J.~A., Davis, R.~A., Merton, A.~A., and Thompson, S.~E. (2006),
+  \enquote{Model selection for geostatistical models,} \textit{Ecological
+  Applications}, 16, 87--98.
+
+\bibitem[{Isaak et~al.(2014)Isaak, Peterson, Ver~Hoef, Wenger, Falke,
+  Torgersen, Sowder, Steel, Fortin, Jordan,
+  et~al.}]{Isaa:Pete:Ver:Weng:Appl:2014}
+Isaak, D.~J., Peterson, E.~E., Ver~Hoef, J.~M., Wenger, S.~J., Falke, J.~A.,
+  Torgersen, C.~E., Sowder, C., Steel, E.~A., Fortin, M.-J., Jordan, C.~E.,
+  et~al. (2014), \enquote{Applications of spatial statistical network models to
+  stream data,} \textit{Wiley Interdisciplinary Reviews: Water}, 1, 277--294.
+
+\bibitem[{Isaaks and Srivastava(1989)}]{Isaa:Sriv:appl:1989}
+Isaaks, E.~H. and Srivastava, R.~M. (1989), \textit{Applied Geostatistics}, New
+  York, NY: Oxford University Press.
+
+\bibitem[{Jensen et~al.(2006)Jensen, Christman, and
+  Miller}]{Jens:Chri:Mill:land:2006}
+Jensen, O.~P., Christman, M.~C., and Miller, T.~J. (2006),
+  \enquote{Landscape-based geostatistics: a case study of the distribution of
+  blue crab in Chesapeake Bay,} \textit{Environmetrics}, 17, 605--621.
+
+\bibitem[{Journel and Huijbregts(1978)}]{Jour:Huij:mini:1978}
+Journel, A.~G. and Huijbregts, C.~W. (1978), \textit{Mining Geostatistics},
+  London, UK: Academic Press.
+
+\bibitem[{Kaluzny et~al.(1998)Kaluzny, Vega, Cardoso, and
+  Shelly}]{Kalu:Vega:Card:Shel:anal:1998}
+Kaluzny, S.~P., Vega, S.~C., Cardoso, T.~P., and Shelly, A.~A. (1998),
+  \enquote{Analyzing Geostatistical Data,} in \textit{S+SpatialStats: Users
+  Manual for Windows and UNIX}, New York, NY: Springer New York, pp. 67--109.
+
+\bibitem[{Ladle et~al.(2016)Ladle, Avgar, Wheatley, and
+  Boyce}]{Ladl:Avga:Whea:Boyc:pred:2016}
+Ladle, A., Avgar, T., Wheatley, M., and Boyce, M.~S. (2016),
+  \enquote{Predictive modelling of ecological patterns along linear-feature
+  networks,} \textit{Methods in Ecology and Evolution}, 8, 329--338.
+
+\bibitem[{Lin and Chen(2004)}]{Lin:Chen:spat:2004}
+Lin, G.-F. and Chen, L.-H. (2004), \enquote{A spatial interpolation method
+  based on radial basis function networks incorporating a semivariogram model,}
+  \textit{Journal of Hydrology}, 288, 288--298.
+
+\bibitem[{Little et~al.(1997)Little, Edwards, and
+  Porter}]{Litt:Edwa:Port:krig:1997}
+Little, L.~S., Edwards, D., and Porter, D.~E. (1997), \enquote{Kriging in
+  estuaries: as the crow flies, or as the fish swims?} \textit{Journal of
+  Experimental Marine Biology and Ecology}, 213, 1--11.
+
+\bibitem[{MacQueen(1967)}]{MacQ:some:1967}
+MacQueen, J.~B. (1967), \enquote{Some Methods for Classification and Analysis
+  of MultiVariate Observations,} in \textit{Proc. of the fifth Berkeley
+  Symposium on Mathematical Statistics and Probability}, eds. Cam, L. M.~L. and
+  Neyman, J., University of California Press, vol.~1, pp. 281--297.
+
+\bibitem[{Martin and Simpson(2005)}]{Mart:Simp:krig:2005}
+Martin, J.~D. and Simpson, T.~W. (2005), \enquote{Use of kriging models to
+  approximate deterministic computer models,} \textit{AIAA journal}, 43,
+  853--863.
+
+\bibitem[{Matheron(1963)}]{Math:Prin:1963}
+Matheron, G. (1963), \enquote{Principles of Geostatistics,} \textit{Economic
+  Geology}, 58, 1246--1266.
+
+\bibitem[{O'Dowd(1991)}]{ODow:cond:1991}
+O'Dowd, R. (1991), \enquote{Conditioning of coefficient matrices of ordinary
+  kriging,} \textit{Mathematical Geology}, 23, 721--739.
+
+\bibitem[{Okabe and Sugihara(2012)}]{Okab:Sugi:spat:2012}
+Okabe, A. and Sugihara, K. (2012), \textit{Spatial Analysis Along Networks:
+  Statistical and Computational Methods}, John Wiley \& Sons.
+
+\bibitem[{Patterson and Thompson(1974)}]{Patt:Thom:maxi:1974}
+Patterson, H. and Thompson, R. (1974), \enquote{Maximum likelihood estimation
+  of components of variance,} in \textit{Proceedings of the 8th International
+  Biometric Conference}, Biometric Society, Washington, DC, pp. 197--207.
+
+\bibitem[{Patterson and Thompson(1971)}]{Patt:Thom:reco:1971}
+Patterson, H.~D. and Thompson, R. (1971), \enquote{Recovery of Inter-block
+  Information When Block Sizes Are Unequal,} \textit{Biometrika}, 58, 545--554.
+
+\bibitem[{Peterson et~al.(2013)Peterson, Ver~Hoef, Isaak, Falke, Fortin,
+  Jordan, McNyset, Monestiez, Ruesch, Sengupta, Som, Steel, Theobald,
+  Torgersen, and Wenger}]{Pete:Ver:Isaa:stre:2013}
+Peterson, E.~E., Ver~Hoef, J.~M., Isaak, D.~J., Falke, J.~A., Fortin, M.-J.,
+  Jordan, C., McNyset, K., Monestiez, P., Ruesch, A.~S., Sengupta, A., Som, N.,
+  Steel, A., Theobald, D.~M., Torgersen, C.~E., and Wenger, S.~J. (2013),
+  \enquote{Stream networks in space: concepts, models, and synthesis,}
+  \textit{Ecology Letters}, 16, 707--719.
+
+\bibitem[{Posa(1989)}]{Posa:cond:1989}
+Posa, D. (1989), \enquote{Conditioning of the stationary kriging matrices for
+  some well-known covariance models,} \textit{Mathematical Geology}, 21,
+  755--765.
+
+\bibitem[{{R Core Team}(2017)}]{R:Deve:Core:ALan:2017}
+{R Core Team} (2017), \textit{R: A Language and Environment for Statistical
+  Computing}, R Foundation for Statistical Computing, Vienna, Austria.
+
+\bibitem[{Rathbun(1998)}]{Rath:spat:1998}
+Rathbun, S.~L. (1998), \enquote{Spatial modelling in irregularly shaped
+  regions: kriging estuaries,} \textit{Environmetrics}, 9, 109--129.
+
+\bibitem[{Ruppert et~al.(2003)Ruppert, Wand, and
+  Carroll}]{Rupp:Wand:Carr:semi:2003}
+Ruppert, D., Wand, M.~P., and Carroll, R.~J. (2003), \textit{Semiparametric
+  Regression}, Campbridge University Press.
+
+\bibitem[{Rushworth et~al.(2015)Rushworth, Peterson, Ver~Hoef, and
+  Bowman}]{Rush:Pete:Ver:Bowm:2015}
+Rushworth, A., Peterson, E., Ver~Hoef, J., and Bowman, A. (2015),
+  \enquote{Validation and comparison of geostatistical and spline models for
+  spatial stream networks,} \textit{Environmetrics}, 26, 327--338.
+
+\bibitem[{Schabenberger and Gotway(2005)}]{Scha:Gotw:stat:2005}
+Schabenberger, O. and Gotway, C.~A. (2005), \textit{Statistical Methods for
+  Spatial Data Analysis}, Boca Raton, Florida: Chapman Hall/CRC.
+
+\bibitem[{Selby and Kockelman(2013)}]{Selb:Kock:spat:2013}
+Selby, B. and Kockelman, K.~M. (2013), \enquote{Spatial prediction of traffic
+  levels in unmeasured locations: applications of universal kriging and
+  geographically weighted regression,} \textit{Journal of Transport Geography},
+  29, 24--32.
+
+\bibitem[{Sherman and Morrison(1949)}]{Sher:Morr:adju:1949}
+Sherman, J. and Morrison, W.~J. (1949), \enquote{Adjustment of an Inverse
+  Matrix Corresponding to Changes in the Elements of a Given Column or a Given
+  Row of the Original Matrix,} \textit{Annals of Mathematical Statistics}, 20,
+  621.
+
+\bibitem[{Shiode and Shiode(2011)}]{Shio:Shio:stre:2011}
+Shiode, N. and Shiode, S. (2011), \enquote{Street-level spatial interpolation
+  using network-based {IDW} and ordinary kriging,} \textit{Transactions in
+  GIS}, 15, 457--477.
+
+\bibitem[{Touchon and McCoy(2016)}]{Touc:McCo:mism:2016}
+Touchon, J.~C. and McCoy, M.~W. (2016), \enquote{The mismatch between current
+  statistical practice and doctoral training in ecology,} \textit{Ecosphere},
+  7.
+
+\bibitem[{Ver~Hoef and Barry(1998)}]{Ver:Barr:cons:1998}
+Ver~Hoef, J.~M. and Barry, R.~P. (1998), \enquote{Constructing and Fitting
+  Models for Cokriging and Multivariable Spatial Prediction,} \textit{Journal
+  of Statistical Planning and Inference}, 69, 275--294.
+
+\bibitem[{Ver~Hoef et~al.(2004)Ver~Hoef, Cressie, and
+  Barry}]{Ver:Cres:Barr:flex:2004}
+Ver~Hoef, J.~M., Cressie, N., and Barry, R.~P. (2004), \enquote{Flexible
+  Spatial Models for Kriging and Cokriging Using Moving Averages and the Fast
+  {F}ourier Transform (fft),} \textit{Journal of Computational and Graphical
+  Statistics}, 13, 265--282.
+
+\bibitem[{Ver~Hoef and Jansen(2015)}]{Ver:Jans:esti:2015}
+Ver~Hoef, J.~M. and Jansen, J.~K. (2015), \enquote{Estimating Abundance from
+  Counts in Large Data Sets of Irregularly-Spaced Plots using Spatial Basis
+  Functions,} \textit{Journal of Agricultural, Biological, and Environmental
+  Statistics}, 20, 1--27.
+
+\bibitem[{Ver~Hoef and Peterson(2010)}]{Ver:Pete:Move:2010}
+Ver~Hoef, J.~M. and Peterson, E. (2010), \enquote{A Moving Average Approach for
+  Spatial Statistical Models of Stream Networks (with discussion),}
+  \textit{Journal of the American Statistical Association}, 105, 6--18.
+
+\bibitem[{Ver~Hoef et~al.(2006)Ver~Hoef, Peterson, and
+  Theobald}]{Ver:Pete:Theo:spat:2006}
+Ver~Hoef, J.~M., Peterson, E.~E., and Theobald, D. (2006), \enquote{Spatial
+  Statistical Models That Use Flow and Stream Distance,} \textit{Environmental
+  and Ecological Statistics}, 13, 449--464.
+
+\bibitem[{Wang and Ranalli(2007)}]{Wang:Rana:low:2007}
+Wang, H. and Ranalli, M.~G. (2007), \enquote{Low-rank Smoothing Splines on
+  Complicated Domains,} \textit{Biometrics}, 63, 209--217.
+
+\bibitem[{Webster and Oliver(2007)}]{Webs:Oliv:geos:2007}
+Webster, R. and Oliver, M.~A. (2007), \textit{Geostatistics for Environmental
+  Scientists}, Chichester, England: John Wiley \& Sons.
+
+\bibitem[{Wikle(2002)}]{Wikl:kern:2002}
+Wikle, C.~K. (2002), \enquote{A kernel-based spectral model for non-Gaussian
+  spatio-temporal processes,} \textit{Statistical Modelling}, 2, 299--314.
+
+\bibitem[{Wikle and Cressie(1999)}]{Wikl:Cres:dime:1999}
+Wikle, C.~K. and Cressie, N. (1999), \enquote{A dimension-reduced approach to
+  space-time Kalman filtering,} \textit{Biometrika}, 815--829.
+
+\bibitem[{Woodbury(1950)}]{Wood:inve:1950}
+Woodbury, M.~A. (1950), \enquote{Inverting modified matrices,} Memorandum
+  Report 42, Statistical Research Group, Princeton N.J.
+
+\bibitem[{Xie(2014)}]{Yihu:impl:2014}
+Xie, Y. (2014), \enquote{knitr: A Comprehensive Tool for Reproducible Research
+  in {R},} in \textit{Implementing Reproducible Computational Research}, eds.
+  Stodden, V., Leisch, F., and Peng, R.~D., Chapman and Hall/CRC, pp. 3 -- 32,
+  iSBN 978-1466561595.
+
+\bibitem[{Xie(2015)}]{Yihu:dyna:2015}
+--- (2015), \textit{Dynamic Documents with {R} and knitr}, Boca Raton, Florida:
+  Chapman and Hall/CRC, 2nd ed., iSBN 978-1498716963.
+
+\bibitem[{Xie(2016)}]{Yihu:knit:2016}
+--- (2016), \textit{knitr: A General-Purpose Package for Dynamic Report
+  Generation in R}, r package version 1.15.1.
+
+\end{thebibliography}

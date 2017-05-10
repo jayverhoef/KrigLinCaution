@@ -1,0 +1,7 @@
+export(acor.exp, acor.gau, acor.sph, acor.cau, acor.hol)
+export(SMWXy)
+export(makeFigNetwork127)
+export(m2LLrr)
+export(m2LLexp)
+export(crossVal)
+export(minEigVal)

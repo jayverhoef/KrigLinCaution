@@ -1,0 +1,79 @@
+%% 
+%% This is file `ams.sty',
+%% generated with the docstrip utility.
+%% 
+%% The original source files were:
+%% 
+%% ams.dtx  (with options: `ams')
+%% 
+%% Copyright (C) 1990,1995 Mike Piff, University of Sheffield, England 
+%% 
+%% You are not allowed to change this file. 
+%% 
+%% You are NOT ALLOWED to distribute this file alone. You are NOT 
+%% ALLOWED to take money for the distribution or use of this 
+%% file except for a nominal charge for copying etc. 
+%% 
+%% Please address any problems to: 
+%% 
+%% M.Piff@sheffield.ac.uk 
+%% 
+%% For updates, contact your nearest CTAN site. 
+%% 
+\def\fileversion{3.16}
+\def\filedate{09 Jan 1996 13:53:56 BST}
+\def\filename{ams.dtx}
+\def\Copyright{Copyright (C) 1990,1995 Mike Piff, University of Sheffield, England}
+\NeedsTeXFormat{LaTeX2e}[1995/12/01]
+\ProvidesPackage{ams}[1996/01/09]
+\typeout{Package `ams' <\filedate>.}
+\typeout{\Copyright}
+\DeclareOption{defs}{\AtEndOfPackage{\RequirePackage{amssymb}}}
+\ProcessOptions
+\RequirePackage{amsfonts}
+\def\frak#1{\ensuremath{\mathfrak{#1}}}
+\def\Bbb#1{\ensuremath{\mathbb{#1}}}
+\let\goth\frak
+\def\MakeBbb#1{%
+   \edef\tmp{%
+      \noexpand\def\csname#1\endcsname
+         {\noexpand\protect\csname p#1\endcsname}%
+      \noexpand\def\csname p#1\endcsname
+         {\noexpand\Bbb{#1}}%
+   }%
+   \tmp
+}
+\MakeBbb{C}
+\MakeBbb{F}
+\MakeBbb{N}
+\MakeBbb{Q}
+\MakeBbb{R}
+\MakeBbb{T}
+\MakeBbb{Z}
+\typeout{Use option defs to define all the AMS symbol names}
+\let\leq\undefined  \let\geq\undefined
+\DeclareMathSymbol{\leq}     {\mathrel}{AMSa}{"36}
+\DeclareMathSymbol{\geq}     {\mathrel}{AMSa}{"3E}
+\let\le\leq   \let\ge\geq
+  \let\mho\undefined            \let\sqsupset\undefined
+  \let\Join\undefined           \let\lhd\undefined
+  \let\Box\undefined            \let\unlhd\undefined
+  \let\Diamond\undefined        \let\rhd\undefined
+  \let\leadsto\undefined        \let\unrhd\undefined
+  \let\sqsubset\undefined
+
+  \DeclareMathSymbol\mho     {\mathord}{AMSb}{"66}
+  \DeclareMathSymbol\Box     {\mathord}{AMSa}{"03}
+  \let\square\Box
+  \DeclareMathSymbol\Diamond {\mathord}{AMSa}{"06}
+  \DeclareMathSymbol\leadsto {\mathrel}{AMSa}{"20}
+  \DeclareMathSymbol\sqsubset{\mathrel}{AMSa}{"40}
+  \DeclareMathSymbol\sqsupset{\mathrel}{AMSa}{"41}
+  \DeclareMathSymbol\lhd     {\mathrel}{AMSa}{"43}
+  \DeclareMathSymbol\unlhd   {\mathrel}{AMSa}{"45}
+  \DeclareMathSymbol\rhd     {\mathrel}{AMSa}{"42}
+  \DeclareMathSymbol\unrhd   {\mathrel}{AMSa}{"44}
+  \def\Join{\mathrel{{\rhd}\mkern-4mu{\lhd}}}
+\endinput
+%% 
+%% End of file `ams.sty'.

@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: KrigLinCaution.aux
+The style file: /mnt/Hitachi2GB/shTex/asa.bst
+Database file #1: /mnt/Hitachi2GB/shTex/StatBibTex.bib.bib
+You've used 71 entries,
+            2777 wiz_defined-function locations,
+            1108 strings with 18044 characters,
+and the built_in function-call counts, 34163 in all, are:
+= -- 3162
+> -- 1651
+< -- 60
++ -- 613
+- -- 524
+* -- 3189
+:= -- 5991
+add.period$ -- 126
+call.type$ -- 71
+change.case$ -- 459
+chr.to.int$ -- 77
+cite$ -- 71
+duplicate$ -- 1491
+empty$ -- 2458
+format.name$ -- 753
+if$ -- 6640
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 82
+newline$ -- 218
+num.names$ -- 292
+pop$ -- 522
+preamble$ -- 1
+purify$ -- 454
+quote$ -- 0
+skip$ -- 1017
+stack$ -- 0
+substring$ -- 2152
+swap$ -- 379
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 597
+warning$ -- 0
+while$ -- 327
+width$ -- 0
+write$ -- 776
