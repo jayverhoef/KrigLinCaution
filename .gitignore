@@ -16,7 +16,7 @@
 
 # RStudio files
 .Rproj.user/
-/*.Rproj
+KrigLinCaution.Rproj
 
 # produced vignettes
 vignettes/*.html
