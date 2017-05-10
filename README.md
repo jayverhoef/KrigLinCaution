@@ -35,23 +35,16 @@ library("devtools")
 install_github("jayverhoef/KrigLinCaution")
 ```
 
-Examine the Example Data
-------------------------
-
-The help file for the example data set can found by typing
-
-```
-library(fluvgrm)
-help(LewWillCol.ssn)
-```
-in R.  The scripts below show how to import it and obtain results in the paper.
-
 Run R Scripts
 -------------
 
-*Real Data*
+The knitr document used to create the manuscript can be found here on your computer system:
 
-After the package is installed, the script used for all analyses is the file 'realDataFigures.R' in the inst/doc folder.  To see where that is in your file system use:
+```
+system.file("doc/KrigLinCaution.Rnw", package = "KrigLinCaution")
+```
+
+which contains all of the R code embedded in the Latex manuscript.  Stripping out the R code with the "purl" command yields a pure R script, which can be found here:
 
 ```
 system.file("doc/KrigLinCaution.R", package = "KrigLinCaution")
@@ -63,7 +56,11 @@ To run the whole script from within R use:
 source(system.file("doc/KrigLinCaution.R", package = "KrigLinCaution"))
 ```
 
+A pure Latex document can be found here:
 
+```
+source(system.file("doc/KrigLinCaution.R", package = "KrigLinCaution"))
+```
 
 -------------
 ##### Disclaimer
