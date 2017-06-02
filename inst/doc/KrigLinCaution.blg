@@ -1,46 +1,47 @@
 This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: KrigLinCaution.aux
-The style file: /mnt/Hitachi2GB/shTex/asa.bst
+The style file: /mnt/Hitachi2GB/shTex/consbiol.bst
 Database file #1: /mnt/Hitachi2GB/shTex/StatBibTex.bib.bib
-You've used 71 entries,
-            2777 wiz_defined-function locations,
-            1108 strings with 18044 characters,
-and the built_in function-call counts, 34163 in all, are:
-= -- 3162
-> -- 1651
-< -- 60
-+ -- 613
-- -- 524
-* -- 3189
-:= -- 5991
-add.period$ -- 126
-call.type$ -- 71
-change.case$ -- 459
-chr.to.int$ -- 77
-cite$ -- 71
-duplicate$ -- 1491
-empty$ -- 2458
-format.name$ -- 753
-if$ -- 6640
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 74 entries,
+            3209 wiz_defined-function locations,
+            1150 strings with 19214 characters,
+and the built_in function-call counts, 47578 in all, are:
+= -- 4030
+> -- 2185
+< -- 65
++ -- 1659
+- -- 566
+* -- 3022
+:= -- 6853
+add.period$ -- 237
+call.type$ -- 74
+change.case$ -- 552
+chr.to.int$ -- 80
+cite$ -- 74
+duplicate$ -- 3446
+empty$ -- 3405
+format.name$ -- 804
+if$ -- 9631
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 82
-newline$ -- 218
-num.names$ -- 292
-pop$ -- 522
+missing$ -- 689
+newline$ -- 384
+num.names$ -- 304
+pop$ -- 1614
 preamble$ -- 1
-purify$ -- 454
+purify$ -- 479
 quote$ -- 0
-skip$ -- 1017
+skip$ -- 1554
 stack$ -- 0
-substring$ -- 2152
-swap$ -- 379
-text.length$ -- 8
+substring$ -- 2248
+swap$ -- 1662
+text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 597
+type$ -- 624
 warning$ -- 0
-while$ -- 327
+while$ -- 345
 width$ -- 0
-write$ -- 776
+write$ -- 976

@@ -2,6 +2,7 @@
 ################################################################################
 ################################################################################
 # smaller font size for chunks
+opts_chunk$set(size = 'footnotesize')
 options(scipen = 8)
 ################################################################################
 ################################################################################
@@ -422,6 +423,7 @@ cbind(rownames(ldisMat),as.character(rd[,1]))
 #               Reduce Rank Exponential Model
 # -----------------------------------------------------------------------------
 
+theta = c(log(2), log(15000), log(10000), log(.7))
 start = Sys.time()
 RRexpEst = optim(theta, m2LLrr, z = rd$motorised,  
 	rrDist = rrDist, knDist = knDist)
@@ -455,6 +457,7 @@ CVoutRRexp = crossVal(z = matrix(rd$motorised, nrow = n, ncol = 1),
 #               Reduce Rank Spherical Model
 # -----------------------------------------------------------------------------
 
+theta = c(log(2), log(15000), log(10000), log(.7))
 start = Sys.time()
 RRsphEst = optim(theta, m2LLrr, z = rd$motorised,  
 	rrDist = rrDist, knDist = knDist, corMod = 'sph')
@@ -490,6 +493,7 @@ CVoutRRsph = crossVal(z = matrix(rd$motorised, nrow = n, ncol = 1),
 #               Reduce Rank Gaussian Model
 # -----------------------------------------------------------------------------
 
+theta = c(log(2), log(15000), log(10000), log(.7))
 start = Sys.time()
 RRgauEst = optim(theta, m2LLrr, z = rd$motorised,  
 	rrDist = rrDist, knDist = knDist, corMod = 'gau')
@@ -525,6 +529,7 @@ CVoutRRgau = crossVal(z = matrix(rd$motorised, nrow = n, ncol = 1),
 #               Reduce Rank Cauchy Model
 # -----------------------------------------------------------------------------
 
+theta = c(log(2), log(15000), log(10000), log(.7))
 start = Sys.time()
 RRcauEst = optim(theta, m2LLrr, z = rd$motorised,  
 	rrDist = rrDist, knDist = knDist, corMod = 'cau')
@@ -699,6 +704,7 @@ CVoutRRnonexp = crossVal(z = matrix(rd$non_motorised, nrow = n, ncol = 1),
 #               Reduce Rank Spherical Model
 # -----------------------------------------------------------------------------
 
+theta = c(log(2), log(15000), log(10000), log(.7))
 start = Sys.time()
 RRnonsphEst = optim(theta, m2LLrr, z = rd$non_motorised,  
 	rrDist = rrDist, knDist = knDist, corMod = 'sph')
@@ -734,6 +740,7 @@ CVoutRRnonsph = crossVal(z = matrix(rd$non_motorised, nrow = n, ncol = 1),
 #               Reduce Rank Gaussian Model
 # -----------------------------------------------------------------------------
 
+theta = c(log(2), log(15000), log(10000), log(.7))
 start = Sys.time()
 RRnongauEst = optim(theta, m2LLrr, z = rd$non_motorised,  
 	rrDist = rrDist, knDist = knDist, corMod = 'gau')
@@ -769,6 +776,7 @@ CVoutRRnongau = crossVal(z = matrix(rd$non_motorised, nrow = n, ncol = 1),
 #               Reduce Rank Cauchy Model
 # -----------------------------------------------------------------------------
 
+theta = c(log(2), log(15000), log(10000), log(.7))
 start = Sys.time()
 RRnoncauEst = optim(theta, m2LLrr, z = rd$non_motorised,  
 	rrDist = rrDist, knDist = knDist, corMod = 'cau')
