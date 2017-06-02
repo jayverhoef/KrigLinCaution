@@ -14,7 +14,7 @@
 
 As a scientific work, and in keeping with common scientific practicies, I kindly request that you cite my research project and applicable publications if you use my work(s) or data in your publications or presentations. Additionally, I strongly encourage and welcome collaboration to promote use of these data in the proper context and scope.  The publication is currently submitted:
 
-#### Ver Hoef, Jay. M. Kriging Models for Linear Networks and non-Euclidean Distances: Cautions, Solutions, and a Comment on Ladle et al. (2016). Submitted to *Methods in Ecology and Evolution*.
+#### Ver Hoef, Jay. M. Kriging Models for Linear Networks and non-Euclidean Distances: Cautions, Solutions, and a Comment on Ladle et al. (2016). In preparation for *Methods in Ecology and Evolution*.
 
 
 Executive Summary
