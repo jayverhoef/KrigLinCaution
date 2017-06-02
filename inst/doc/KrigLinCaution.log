@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.15)  2 JUN 2017 07:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.15)  2 JUN 2017 08:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -660,7 +660,7 @@ gLinCaution.aux) )
 Here is how much of TeX's memory you used:
  12096 strings out of 493304
  204116 string characters out of 6139871
- 359655 words of memory out of 5000000
+ 359656 words of memory out of 5000000
  15243 multiletter control sequences out of 15000+600000
  18724 words of font info for 72 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -684,7 +684,7 @@ are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on KrigLinCaution.pdf (37 pages, 414290 bytes).
+Output written on KrigLinCaution.pdf (37 pages, 413925 bytes).
 PDF statistics:
  234 PDF objects out of 1000 (max. 8388607)
  165 compressed objects within 2 object streams

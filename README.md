@@ -59,7 +59,7 @@ source(system.file("doc/KrigLinCaution.R", package = "KrigLinCaution"))
 A pure Latex document can be found here:
 
 ```
-source(system.file("doc/KrigLinCaution.R", package = "KrigLinCaution"))
+system.file("doc/KrigLinCaution.R", package = "KrigLinCaution")
 ```
 
 -------------
