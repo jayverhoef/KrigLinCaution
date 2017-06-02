@@ -1,4 +1,7 @@
+.gitignore
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
+KrigLinCaution.Rproj
+.Rbuildignore
