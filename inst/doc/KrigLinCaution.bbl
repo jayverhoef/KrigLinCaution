@@ -1,4 +1,4 @@
-\begin{thebibliography}{74}
+\begin{thebibliography}{73}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
@@ -365,12 +365,6 @@ Shiode, N. and S.~Shiode, 2011.
 \newblock Street-level spatial interpolation using network-based {IDW} and
   ordinary kriging.
 \newblock Transactions in GIS \textbf{15}(4):457--477.
-
-\bibitem[{Touchon \& McCoy(2016)}]{Touc:McCo:mism:2016}
-Touchon, J.~C. and M.~W. McCoy, 2016.
-\newblock The mismatch between current statistical practice and doctoral
-  training in ecology.
-\newblock Ecosphere \textbf{7}(8).
 
 \bibitem[{Ver~Hoef \& Barry(1998)}]{Ver:Barr:cons:1998}
 Ver~Hoef, J.~M. and R.~P. Barry, 1998.

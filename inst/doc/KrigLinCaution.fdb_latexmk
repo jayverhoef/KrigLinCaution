@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1496250853 "/mnt/Hitachi2GB/00NMML/activePapers/KrigLinCaution/KrigLinCaution_package/KrigLinCaution/inst/doc/KrigLinCaution.Rnw" "/mnt/Hitachi2GB/00NMML/activePapers/KrigLinCaution/KrigLinCaution_package/KrigLinCaution/inst/doc/KrigLinCaution.pdf" "KrigLinCaution" 1496250853
+["pdflatex"] 1497896551 "/mnt/Hitachi2GB/00NMML/activePapers/KrigLinCaution/KrigLinCaution_package/KrigLinCaution/inst/doc/KrigLinCaution.Rnw" "/mnt/Hitachi2GB/00NMML/activePapers/KrigLinCaution/KrigLinCaution_package/KrigLinCaution/inst/doc/KrigLinCaution.pdf" "KrigLinCaution" 1497896552
   "/etc/texmf/web2c/texmf.cnf" 1429168014 1101 af7716885e081ab43982cab7b4672c1a ""
-  "/mnt/Hitachi2GB/00NMML/activePapers/KrigLinCaution/KrigLinCaution_package/KrigLinCaution/inst/doc/KrigLinCaution.Rnw" 1496250850 99408 0744e488556a5be6baffda66f07a4313 ""
-  "/mnt/Hitachi2GB/00NMML/activePapers/KrigLinCaution/KrigLinCaution_package/KrigLinCaution/inst/doc/KrigLinCaution.aux" 1496250853 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/mnt/Hitachi2GB/00NMML/activePapers/KrigLinCaution/KrigLinCaution_package/KrigLinCaution/inst/doc/KrigLinCaution.Rnw" 1497896541 99185 f38c7ba588b53e02249d9067a304a41f ""
+  "/mnt/Hitachi2GB/00NMML/activePapers/KrigLinCaution/KrigLinCaution_package/KrigLinCaution/inst/doc/KrigLinCaution.aux" 1497896552 8 a94a2480d3289e625eea47cd1b285758 ""
   "/mnt/Hitachi2GB/shTex/mymacros.sty" 1493226931 3200 e6248c512bbb6e0a66c5ca817c7b382e ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -107,11 +107,11 @@
   "/usr/share/texmf/tex/latex/xcolor/xcolor.sty" 1339578534 55224 a43bab84e0ac5e6efcaf9a98bde73a94 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1392645748 31083 1dfd8bf685ce0009c40532fedf8a7c53 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1429168103 3822874 66c1885e3c9329236c5e9fe54255a167 ""
-  "KrigLinCaution.Rnw" 1496250850 99408 0744e488556a5be6baffda66f07a4313 ""
-  "KrigLinCaution.aux" 1496250853 8 a94a2480d3289e625eea47cd1b285758 ""
+  "KrigLinCaution.Rnw" 1497896541 99185 f38c7ba588b53e02249d9067a304a41f ""
+  "KrigLinCaution.aux" 1497896552 8 a94a2480d3289e625eea47cd1b285758 ""
   "ams.sty" 1313818038 2511 02dc04d8c216740018f82c2adb99445a ""
   (generated)
-  "/mnt/Hitachi2GB/00NMML/activePapers/KrigLinCaution/KrigLinCaution_package/KrigLinCaution/inst/doc/KrigLinCaution.log"
-  "KrigLinCaution.log"
-  "KrigLinCaution.aux"
   "/mnt/Hitachi2GB/00NMML/activePapers/KrigLinCaution/KrigLinCaution_package/KrigLinCaution/inst/doc/KrigLinCaution.pdf"
+  "KrigLinCaution.aux"
+  "KrigLinCaution.log"
+  "/mnt/Hitachi2GB/00NMML/activePapers/KrigLinCaution/KrigLinCaution_package/KrigLinCaution/inst/doc/KrigLinCaution.log"
