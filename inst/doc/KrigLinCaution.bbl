@@ -1,4 +1,4 @@
-\begin{thebibliography}{73}
+\begin{thebibliography}{71}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
@@ -132,11 +132,6 @@ Ecker, M.~D. and A.~E. Gelfand, 1997.
 \newblock Journal of Agricultural, Biological, and Environmental Statistics
   pages 347--369.
 
-\bibitem[{Fortin \& Dale(2005)}]{Fort:Dale:spat:2005}
-Fortin, M.-J. and M.~R.~T. Dale, 2005.
-\newblock Spatial Analysis: A Guide for Ecologists.
-\newblock Cambridge University Press, Cambridge, UK.
-
 \bibitem[{Gandin(1963)}]{Gand:obje:1963}
 Gandin, L.~S., 1963.
 \newblock Objective Analysis of Meteorological Fields, volume 242.
@@ -220,11 +215,6 @@ Isaak, D.~J., E.~E. Peterson, J.~M. Ver~Hoef, S.~J. Wenger, J.~A. Falke, C.~E.
   Torgersen, C.~Sowder, E.~A. Steel, M.-J. Fortin, C.~E. Jordan et~al., 2014.
 \newblock Applications of spatial statistical network models to stream data.
 \newblock Wiley Interdisciplinary Reviews: Water \textbf{1}(3):277--294.
-
-\bibitem[{Isaaks \& Srivastava(1989)}]{Isaa:Sriv:appl:1989}
-Isaaks, E.~H. and R.~M. Srivastava, 1989.
-\newblock Applied Geostatistics.
-\newblock Oxford University Press, New York, NY.
 
 \bibitem[{Jensen et~al.(2006)Jensen, Christman \&
   Miller}]{Jens:Chri:Mill:land:2006}
