@@ -53,7 +53,16 @@ system.file("doc/KrigLinCaution.R", package = "KrigLinCaution")
 To run the whole script from within R use:
 
 ```
-source(system.file("doc/KrigLinCaution.R", package = "KrigLinCaution"))
+# set working directory to /doc path in package
+setwd(system.file("doc", package = "KrigLinCaution"))
+# make a list of files and directories
+file.list <- list.files()
+# copy files to R temporary directory (or change to a permanent one of your choice)
+file.copy(file.list, tempdir(), recursive = TRUE)
+# set working directory to R temporary directory (or whereever you copied stuff)
+setwd(tempdir())
+# Run the R script
+source("KrigLinCaution.R")
 ```
 
 A pure Latex document can be found here:
