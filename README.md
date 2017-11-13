@@ -3,10 +3,10 @@
 
 [![minimal R version](https://img.shields.io/badge/R%3E%3D-3.1.1-6666ff.svg)](https://cran.r-project.org/) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/kotzeb0912)](https://cran.r-project.org/package=kotzeb0912) [![packageversion](https://img.shields.io/badge/Package%20version-1.0-orange.svg?style=flat-square)](commits/master)
 
-[![Last-changedate](https://img.shields.io/badge/last%20change-2017--05--09-yellowgreen.svg)](/commits/master)
+[![Last-changedate](https://img.shields.io/badge/last%20change-2017--11--12-yellowgreen.svg)](/commits/master)
 
 # KrigLinCaution
-## An R package in support of publication, "Kriging Models for Linear Networks and non-Euclidean Distances: Cautions, Solutions, and a Comment on Ladle et al. (2016)." 
+## An R package in support of publication, "Kriging Models for Linear Networks and non-Euclidean Distances: Cautions and Solutions." 
 
 #### Jay M. Ver Hoef<sup>a</sup>
 
@@ -14,16 +14,16 @@
 
 As a scientific work, and in keeping with common scientific practicies, I kindly request that you cite my research project and applicable publications if you use my work(s) or data in your publications or presentations. Additionally, I strongly encourage and welcome collaboration to promote use of these data in the proper context and scope.  The publication is currently submitted:
 
-#### Ver Hoef, Jay. M. Kriging Models for Linear Networks and non-Euclidean Distances: Cautions, Solutions, and a Comment on Ladle et al. (2016). In preparation for *Methods in Ecology and Evolution*.
+#### Ver Hoef, Jay. M. Kriging Models for Linear Networks and non-Euclidean Distances: Cautions, Solutions, and a Comment on Ladle et al. (2016). In revision to *Methods in Ecology and Evolution*.
 
 
 Executive Summary
 -----------------
 
- 1. There are now many examples where ecological researchers used non-Euclidean distance metrics in geostatistical models that were designed for Euclidean distance, such as those used for kriging.  This can lead to problems where predictions have negative variance estimates.  Technically, this occurs because the spatial covariance matrix, which depends on the geostatistical models, is not guaranteed to be positive definite when non-Euclidean distance metrics are used.
-  2. I give a quick review of kriging and illustrate the problem with several fabricated examples, including locations on a circle, locations on a linear dichotomous network like streams, and locations on a linear trail or road network. I re-examine the linear network distance models from Ladle et al. (2016) and show that they are not guaranteed to have a positive definite covariance matrix.
-  3.  I introduce the reduced rank method, also called predictive process models, fixed-rank kriging, and spatial basis functions, for creating valid spatial covariance matrices with non-Euclidean distance metrics.  It has an additional advantage of fast computation for large data sets.
-  4. I re-analyze the data of Ladle et al. (2016), showing that their fitted models, which used linear network distance in a geostatistical model without any nugget effect, had poor predictive performance compared to a model using Euclidean distance with a nugget effect, and it also had improper coverage for the prediction intervals. The reduced rank approach using linear network distances had the best predictive performance and had proper coverage for the prediction intervals.
+ 1. There are now many examples where ecological researchers used non-Euclidean distance metrics in geostatistical models that were designed for Euclidean distance, such as those used for kriging.  This can lead to problems where predictions have negative variance estimates.  Technically, this occurs because the spatial covariance matrix, which depends on the geostatistical models, is not guaranteed to be positive definite when non-Euclidean distance metrics are used.  These are not permissible models, and should be avoided.
+  2. I give a quick review of kriging and illustrate the problem with several simulated examples, including locations on a circle, locations on a linear dichotomous network (such as might be used for streams), and locations on a linear trail or road network. I re-examine the linear-network distance models from Ladle et al. (2017) and show that they are not guaranteed to have a positive-definite covariance matrix.
+  3.  I introduce the reduced-rank method, also called a predictive-process model, for creating valid spatial covariance matrices with non-Euclidean distance metrics.  It has an additional advantage of fast computation for large data sets.
+  4. I reanalyzed the data of Ladle et al. (2017), showing that fitted models that used linear network distance in geostatistical models, both with and without a nugget effect, had negative variances, poor predictive performance compared reduced-rank methods, and had improper coverage for the prediction intervals. The reduced-rank approach using linear network distances provided a class of permissible models that had better predictive performance and proper coverage for the prediction intervals, and could be combined with Euclidean distance models to provide the best overall predictive performance. 
 
 Installation
 ------------
@@ -59,7 +59,7 @@ source(system.file("doc/KrigLinCaution.R", package = "KrigLinCaution"))
 A pure Latex document can be found here:
 
 ```
-system.file("doc/KrigLinCaution.R", package = "KrigLinCaution")
+system.file("doc/KrigLinCaution.tex", package = "KrigLinCaution")
 ```
 
 -------------

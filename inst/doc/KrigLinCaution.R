@@ -34,7 +34,7 @@ options(scipen = 8)
   source('Rchunks/Fig-EucLinScatter.R')
 
 ## ----Tab-CVstats, echo= FALSE, include = FALSE, cache = TRUE-------------
-  CVstats2 = as.matrix(rbind(
+  CVstats1 = as.matrix(rbind(
       c(5.093, 14245, NA, NA, NA, unlist(CVLadExp)),
       c(psilExpLinWLSnug, rangExpLinWLSnug, NA, nuggExpLinWLSnug, NA, unlist(CrosValExpLinWLSnug)),
       c(psilSphLinWLS, rangSphLinWLS, NA, NA, NA, NA, NA, NA),
@@ -122,20 +122,38 @@ options(scipen = 8)
     sum(LOOCV(SigRRsph,rd$non_motorised)[,2] < 0),
     sum(LOOCV(SigRRgau,rd$non_motorised)[,2] < 0),
     sum(LOOCV(SigRRcau,rd$non_motorised)[,2] < 0))    
-#  rownames(CVstats2) = string
-  CVstats2 = as.data.frame(CVstats2)
-  CVstats2 = cbind(
+#  rownames(CVstats1) = string
+  CVstats1 = as.data.frame(CVstats1)
+  CVstats1 = cbind(
     Mod,
     c(rep(NA, times = 20), rep('Y', times = 4)),
     c(rep('Lin', times = 10),rep('Euc', times = 10), rep('Lin', times = 4)),
     c(' ', 'CWLS', rep(c('WLS','CWLS'), times = 4), rep('CWLS', times = 5),
       rep('REML', times = 9)),
+    CVstats1[,1:4], pd, Nnv, CVstats1[,5:8])
+
+  CVstats2 = as.matrix(rbind(
+      c(sigmapVCsphLin, alphaVCsphLin, alphaVCsphKnt, sigma0VCsph, unlist(CVVCsph)),
+      c(sigmapVCsphEuc, alphaVCsphEuc, NA, NA, NA, NA, NA, NA)
+    )
+  )
+  Mod = c("Sph", "Sph")
+  pd = NULL
+  if(min(eigen(SigVCsph)$values) > 0) {pd = c(pd,'Y')} else {pd = c(pd,' ')}
+  pd = c(pd, '')
+  Nnv = c(sum(LOOCV(SigVCsph,rd$non_motorised)[,2] < 0),'')
+  CVstats2 = as.data.frame(CVstats2)
+  CVstats2 = cbind(
+    Mod,
+    c('Y', 'N'),
+    c('Lin', 'Euc'),
+    c('REML', ' '),
     CVstats2[,1:4], pd, Nnv, CVstats2[,5:8])
 
 ## ----results = 'asis', echo = FALSE--------------------------------------
   print(
-    xtable(CVstats2, 
-      align = c('l',rep('l', times = length(CVstats2[1,]))),
+    xtable(CVstats1, 
+      align = c('l',rep('l', times = length(CVstats1[1,]))),
       digits = c(0,0,0,0,0,1,0,0,1,0,0,2,3,3,3),
       caption = 'Cross-validation statistics',
       label = 'tab:CVstats'
@@ -146,4 +164,106 @@ options(scipen = 8)
     only.contents = TRUE,
     include.colnames = FALSE
   )
+
+## ----results = 'asis', echo = FALSE--------------------------------------
+  print(
+    xtable(CVstats2, 
+      align = c('l',rep('l', times = length(CVstats2[1,]))),
+      digits = c(0,0,0,0,0,1,0,0,1,0,0,2,3,3,3)
+    ),
+    size = 'footnotesize',
+    include.rownames = FALSE,
+    sanitize.rownames.function = identity,
+    only.contents = TRUE,
+    include.colnames = FALSE
+  )
+
+## ----Fig-App4LocNetwork, echo=FALSE, include = FALSE, cache = TRUE-------
+  source('Rchunks/Fig-App4LocNetwork.R')
+
+## ------------------------------------------------------------------------
+linDmat = rbind(
+  c(0,1,2,2),
+  c(1,0,1,1),
+  c(2,1,0,2),
+  c(2,1,2,0))
+
+## ----results = 'asis', echo = FALSE--------------------------------------
+  print(
+    xtable(linDmat, 
+      align = c('l',rep('l', times = length(linDmat[1,]))),
+      digits = c(1,0,0,0,0)
+    ),
+    hline.after = NULL,
+    size = 'footnotesize',
+    include.rownames = FALSE,
+    sanitize.rownames.function = identity,
+    only.contents = TRUE,
+    include.colnames = FALSE
+  )
+
+## ------------------------------------------------------------------------
+Sig = exp(-(linDmat/3)^2) + diag(rep(0.01, times = 4))
+
+## ----results = 'asis', echo = FALSE--------------------------------------
+  print(
+    xtable(Sig, 
+      align = c('l',rep('l', times = length(linDmat[1,]))),
+      digits = c(1,3,3,3,3)
+    ),
+    hline.after = NULL,
+    size = 'footnotesize',
+    include.rownames = FALSE,
+    sanitize.rownames.function = identity,
+    only.contents = TRUE,
+    include.colnames = FALSE
+  )
+
+## ------------------------------------------------------------------------
+Lambda = diag(eigen(Sig)$values)
+Q = eigen(Sig)$vectors
+
+## ----results = 'asis', echo = FALSE--------------------------------------
+  print(
+    xtable(Lambda, 
+      align = c('l',rep('l', times = length(linDmat[1,]))),
+      digits = c(1,3,3,3,3)
+    ),
+    hline.after = NULL,
+    size = 'footnotesize',
+    include.rownames = FALSE,
+    sanitize.rownames.function = identity,
+    only.contents = TRUE,
+    include.colnames = FALSE
+  )
+
+## ----results = 'asis', echo = FALSE--------------------------------------
+  print(
+    xtable(Q, 
+      align = c('l',rep('l', times = length(linDmat[1,]))),
+      digits = c(1,3,3,3,3)
+    ),
+    hline.after = NULL,
+    size = 'footnotesize',
+    include.rownames = FALSE,
+    sanitize.rownames.function = identity,
+    only.contents = TRUE,
+    include.colnames = FALSE
+  )
+
+## ------------------------------------------------------------------------
+Q[,1] %*% Q[,4]
+Q[,4] %*% Q[,4]
+
+## ------------------------------------------------------------------------
+v4 = Q[,4]
+t(v4) %*% Sig %*% v4
+
+## ------------------------------------------------------------------------
+cvec = exp(-(c(1.3, 0.3, 1.3, 0.7)/3)^2)
+cvec
+
+## ------------------------------------------------------------------------
+(1 + 0.01) - t(cvec) %*% solve(Sig) %*% cvec + 
+  (1 - (sum(solve(Sig) %*% cvec))^2)/sum(solve(Sig))
 
