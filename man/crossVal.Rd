@@ -2,7 +2,8 @@
 % Please edit documentation in R/crossVal.R
 \name{crossVal}
 \alias{crossVal}
-\title{Crossvalidation from a fitted spatial model}
+\title{A fast version of leave-one-out crossvalidation (LOOCV) needing without any
+further matrix inverses}
 \usage{
 crossVal(z, X, V, Vi, n, p, covb, covbi, bhat)
 }
@@ -26,10 +27,12 @@ crossVal(z, X, V, Vi, n, p, covb, covbi, bhat)
 \item{bhat}{fitted fixed effects}
 }
 \value{
-a data.frame with crossvalidation predictions "cv.pred" and estimated prediction standard errors "cv.se"
+a data.frame with crossvalidation predictions "cv.pred" and 
+estimated prediction variances "cv.var"
 }
 \description{
-Crossvalidation from a fitted spatial model
+A fast version of leave-one-out crossvalidation (LOOCV) needing without any
+further matrix inverses
 }
 \author{
 Jay Ver Hoef

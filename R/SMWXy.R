@@ -14,7 +14,6 @@
 #' @return a list with the inverse inv(Z A t(Z) + B) X, inv(Z A t(Z) + B) y and determinant of Z A t(Z) + B 
 #'
 #' @author Jay Ver Hoef \email{jay.verhoef@@noaa.gov}
-#' @export
 SMWXy <- function(Ainv, Alogdet, BinvZ, Blogdet, Z, BinvX, Binvy) {
 	tZBinvZ <- t(Z) %*% BinvZ
   tZBinvX <- t(Z) %*% BinvX

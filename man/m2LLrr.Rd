@@ -15,7 +15,7 @@ theta[4] the nugget effect.}
 
 \item{rrDist}{distance matrix with any kind of distance metric. The reduced rank distance matrix.}
 
-\item{knDist}{Euclidean distance matrix among knot location}
+\item{knDist}{Euclidean distance matrix among knot locations}
 
 \item{corMod}{one of the autocorrelation models.  Valid options are 'exp', 'sph', 'gau', and 'cau', for 
 exponential, spherical, Gaussian, and Cauchy, respectively}

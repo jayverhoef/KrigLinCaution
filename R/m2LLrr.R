@@ -7,7 +7,7 @@
 #' theta[4] the nugget effect.
 #' @param z vector of data
 #' @param rrDist distance matrix with any kind of distance metric. The reduced rank distance matrix.
-#' @param knDist Euclidean distance matrix among knot location 
+#' @param knDist Euclidean distance matrix among knot locations 
 #' @param corMod one of the autocorrelation models.  Valid options are 'exp', 'sph', 'gau', and 'cau', for 
 #' exponential, spherical, Gaussian, and Cauchy, respectively
 #' @param estMeth estimation method.  Default is "REML" for restricted maximum likelihood.  Other options are "ML" for maximum likelihood

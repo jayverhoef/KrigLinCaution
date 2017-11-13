@@ -4,44 +4,44 @@ The top-level auxiliary file: KrigLinCaution.aux
 The style file: /mnt/Hitachi2GB/shTex/consbiol.bst
 Database file #1: /mnt/Hitachi2GB/shTex/StatBibTex.bib.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 71 entries,
+You've used 77 entries,
             3209 wiz_defined-function locations,
-            1134 strings with 18784 characters,
-and the built_in function-call counts, 46053 in all, are:
-= -- 3908
-> -- 2116
-< -- 62
-+ -- 1609
-- -- 548
-* -- 2929
-:= -- 6621
-add.period$ -- 228
-call.type$ -- 71
-change.case$ -- 533
-chr.to.int$ -- 77
-cite$ -- 71
-duplicate$ -- 3329
-empty$ -- 3290
-format.name$ -- 771
-if$ -- 9325
+            1173 strings with 19815 characters,
+and the built_in function-call counts, 49418 in all, are:
+= -- 4216
+> -- 2182
+< -- 66
++ -- 1637
+- -- 566
+* -- 3170
+:= -- 7115
+add.period$ -- 247
+call.type$ -- 77
+change.case$ -- 570
+chr.to.int$ -- 83
+cite$ -- 77
+duplicate$ -- 3576
+empty$ -- 3586
+format.name$ -- 811
+if$ -- 10003
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 665
-newline$ -- 369
-num.names$ -- 292
-pop$ -- 1551
+missing$ -- 711
+newline$ -- 400
+num.names$ -- 316
+pop$ -- 1669
 preamble$ -- 1
-purify$ -- 461
+purify$ -- 492
 quote$ -- 0
-skip$ -- 1506
+skip$ -- 1559
 stack$ -- 0
-substring$ -- 2213
-swap$ -- 1614
+substring$ -- 2505
+swap$ -- 1731
 text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 603
+type$ -- 657
 warning$ -- 0
-while$ -- 336
+while$ -- 362
 width$ -- 0
-write$ -- 939
+write$ -- 1018

@@ -1,4 +1,4 @@
-\begin{thebibliography}{71}
+\begin{thebibliography}{77}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
@@ -15,6 +15,13 @@ Akaike, H., 1973.
   principle.
 \newblock In B.~Petrov \& F.~Csaki, editors, Second International Symposium on
   Information Theory, pages 267--281. Akademiai Kiado, Budapest.
+
+\bibitem[{Bakka et~al.(2016)Bakka, Vanhatalo, Illian, Simpson \&
+  Rue}]{Bakk:Vanh:Illi:Simp:acco:2016}
+Bakka, H., J.~Vanhatalo, J.~Illian, D.~Simpson and H.~Rue, 2016.
+\newblock Accounting for physical barriers in species distribution modeling
+  with non-stationary spatial random effects.
+\newblock arXiv preprint arXiv:1608.03787 .
 
 \bibitem[{Banerjee(2005)}]{Bane:geod:2005}
 Banerjee, S., 2005.
@@ -121,6 +128,12 @@ Curriero, F.~C., 2006.
 \newblock On the use of non-euclidean distance measures in geostatistics.
 \newblock Mathematical Geology \textbf{38}(8):907--926.
 
+\bibitem[{Dale \& Fortin(2010)}]{Dale:Fort:from:2010}
+Dale, M. and M.-J. Fortin, 2010.
+\newblock From graphs to spatial graphs.
+\newblock Annual Review of Ecology, Evolution, and Systematics
+  \textbf{41}(1):21.
+
 \bibitem[{Diamond \& Armstrong(1984)}]{Diam:Arms:robu:1984}
 Diamond, P. and M.~Armstrong, 1984.
 \newblock Robustness of variograms and conditioning of kriging matrices.
@@ -208,14 +221,6 @@ Hoeting, J.~A., R.~A. Davis, A.~A. Merton and S.~E. Thompson, 2006.
 \newblock Model selection for geostatistical models.
 \newblock Ecological Applications \textbf{16}(1):87--98.
 
-\bibitem[{Isaak et~al.(2014)Isaak, Peterson, Ver~Hoef, Wenger, Falke,
-  Torgersen, Sowder, Steel, Fortin, Jordan
-  et~al.}]{Isaa:Pete:Ver:Weng:Appl:2014}
-Isaak, D.~J., E.~E. Peterson, J.~M. Ver~Hoef, S.~J. Wenger, J.~A. Falke, C.~E.
-  Torgersen, C.~Sowder, E.~A. Steel, M.-J. Fortin, C.~E. Jordan et~al., 2014.
-\newblock Applications of spatial statistical network models to stream data.
-\newblock Wiley Interdisciplinary Reviews: Water \textbf{1}(3):277--294.
-
 \bibitem[{Jensen et~al.(2006)Jensen, Christman \&
   Miller}]{Jens:Chri:Mill:land:2006}
 Jensen, O.~P., M.~C. Christman and T.~J. Miller, 2006.
@@ -235,9 +240,9 @@ Kaluzny, S.~P., S.~C. Vega, T.~P. Cardoso and A.~A. Shelly, 1998.
 \newblock In S+SpatialStats: Users Manual for Windows and UNIX, pages 67--109.
   Springer New York, New York, NY.
 
-\bibitem[{Ladle et~al.(2016)Ladle, Avgar, Wheatley \&
+\bibitem[{Ladle et~al.(2017)Ladle, Avgar, Wheatley \&
   Boyce}]{Ladl:Avga:Whea:Boyc:pred:2016}
-Ladle, A., T.~Avgar, M.~Wheatley and M.~S. Boyce, 2016.
+Ladle, A., T.~Avgar, M.~Wheatley and M.~S. Boyce, 2017.
 \newblock Predictive modelling of ecological patterns along linear-feature
   networks.
 \newblock Methods in Ecology and Evolution \textbf{8}(3):329--338.
@@ -247,6 +252,14 @@ Lin, G.-F. and L.-H. Chen, 2004.
 \newblock A spatial interpolation method based on radial basis function
   networks incorporating a semivariogram model.
 \newblock Journal of Hydrology \textbf{288}(3):288--298.
+
+\bibitem[{Lindgren et~al.(2011)Lindgren, Rue \&
+  Lindstr{\"o}m}]{Lind:Rue:Lind:expl:2011}
+Lindgren, F., H.~Rue and J.~Lindstr{\"o}m, 2011.
+\newblock An explicit link between {G}aussian fields and {G}aussian {M}arkov
+  random fields: the stochastic partial differential equation approach.
+\newblock Journal of the Royal Statistical Society: Series B (Statistical
+  Methodology) \textbf{73}(4):423--498.
 
 \bibitem[{Little et~al.(1997)Little, Edwards \&
   Porter}]{Litt:Edwa:Port:krig:1997}
@@ -272,6 +285,18 @@ Martin, J.~D. and T.~W. Simpson, 2005.
 Matheron, G., 1963.
 \newblock Principles of geostatistics.
 \newblock Economic Geology \textbf{58}:1246--1266.
+
+\bibitem[{McIntyre \& Barry(2017)}]{McIn:Barr:latt:2017}
+McIntyre, J. and R.~P. Barry, 2017.
+\newblock A lattice-based smoother for regions with irregular boundaries and
+  holes.
+\newblock Journal of Computational and Graphical Statistics, \textbf{early
+  on-line}:http://dx.doi.org/10.1080/10618600.2017.1375935.
+
+\bibitem[{Miller \& Wood(2014)}]{Mill:Wood:fini:2014}
+Miller, D.~L. and S.~N. Wood, 2014.
+\newblock Finite area smoothing with generalized distance splines.
+\newblock Environmental and ecological statistics \textbf{21}(4):715--731.
 
 \bibitem[{O'Dowd(1991)}]{ODow:cond:1991}
 O'Dowd, R., 1991.
@@ -315,10 +340,24 @@ Posa, D., 1989.
 \newblock R Foundation for Statistical Computing, Vienna, Austria.
 \newblock \urlprefix\url{http://www.R-project.org}.
 
+\bibitem[{Ramsay(2002)}]{Rams:spli:2002}
+Ramsay, T., 2002.
+\newblock Spline smoothing over difficult regions.
+\newblock Journal of the Royal Statistical Society: Series B (Statistical
+  Methodology) \textbf{64}(2):307--319.
+
 \bibitem[{Rathbun(1998)}]{Rath:spat:1998}
 Rathbun, S.~L., 1998.
 \newblock Spatial modelling in irregularly shaped regions: kriging estuaries.
 \newblock Environmetrics \textbf{9}(2):109--129.
+
+\bibitem[{Rue et~al.(2009)Rue, Martino \& Chopin}]{Rue:Mart:Chop:appr:2009}
+Rue, H., S.~Martino and N.~Chopin, 2009.
+\newblock Approximate bayesian inference for latent gaussian models by using
+  integrated nested laplace approximations.
+\newblock Journal of the Royal Statistical Society: Series B (Statistical
+  Methodology) \textbf{71}(2):319--392.
+\newblock \urlprefix\url{http://dx.doi.org/10.1111/j.1467-9868.2008.00700.x}.
 
 \bibitem[{Ruppert et~al.(2003)Ruppert, Wand \&
   Carroll}]{Rupp:Wand:Carr:semi:2003}
@@ -326,12 +365,12 @@ Ruppert, D., M.~P. Wand and R.~J. Carroll, 2003.
 \newblock Semiparametric Regression.
 \newblock Campbridge University Press.
 
-\bibitem[{Rushworth et~al.(2015)Rushworth, Peterson, Ver~Hoef \&
-  Bowman}]{Rush:Pete:Ver:Bowm:2015}
-Rushworth, A., E.~Peterson, J.~Ver~Hoef and A.~Bowman, 2015.
-\newblock Validation and comparison of geostatistical and spline models for
-  spatial stream networks.
-\newblock Environmetrics \textbf{26}(5):327--338.
+\bibitem[{Sangalli et~al.(2013)Sangalli, Ramsay \&
+  Ramsay}]{Sang:Rams:Rams:spat:2013}
+Sangalli, L.~M., J.~O. Ramsay and T.~O. Ramsay, 2013.
+\newblock Spatial spline regression models.
+\newblock Journal of the Royal Statistical Society: Series B (Statistical
+  Methodology) \textbf{75}(4):681--703.
 
 \bibitem[{Schabenberger \& Gotway(2005)}]{Scha:Gotw:stat:2005}
 Schabenberger, O. and C.~A. Gotway, 2005.

@@ -4,9 +4,11 @@
 #
 #-------------------------------------------------------------------------------
 
-#' Crossvalidation from a fitted spatial model
+#' A fast version of leave-one-out crossvalidation (LOOCV) needing without any
+#' further matrix inverses
 #'
-#' Crossvalidation from a fitted spatial model
+#' A fast version of leave-one-out crossvalidation (LOOCV) needing without any
+#' further matrix inverses
 #'
 #' @param z vector of data
 #' @param X design matrix
@@ -18,7 +20,8 @@
 #' @param covbi inverse of covb
 #' @param bhat fitted fixed effects
 #'
-#' @return a data.frame with crossvalidation predictions "cv.pred" and estimated prediction standard errors "cv.se"
+#' @return a data.frame with crossvalidation predictions "cv.pred" and 
+#' estimated prediction variances "cv.var"
 #'
 #' @author Jay Ver Hoef
 
@@ -40,10 +43,10 @@ crossVal <- function(z, X, V, Vi, n, p, covb, covbi, bhat)
 		covb.i <- solve(t(X.i) %*% Vi.i %*% X.i)
 		lam <- t(c.i + X.i %*% covb.i %*% xxi) %*% Vi.i
 		cdd.out[i,1] <- lam %*% z.i
-		cdd.out[i,2] <- sqrt(si + t(xxi) %*% covb.i %*% xxi)
+		cdd.out[i,2] <- (si + t(xxi) %*% covb.i %*% xxi)
 	}
 	cdd.out <- as.data.frame(cdd.out)
-	names(cdd.out) <- c("cv.pred","cv.se")
+	names(cdd.out) <- c("cv.pred","cv.var")
 	cdd.out
 }
 
