@@ -13,17 +13,17 @@ colnames(ldisMat) = matNames
 # try various models on linear network distances
 exReal = NULL
 for(i in 1:100) {
-  alpha = 40000*i^2/100^2
+  alpha = 40*i^2/100^2
   # exponential model
-  mexp = min(eigen(exp(-ldisMat/alpha))$values)
+  mexp = min(eigen(exp(-ldisMat/(1000*alpha)))$values)
   # Gaussian model
-  mgau = min(eigen(exp(-(ldisMat/alpha)^2))$values)
+  mgau = min(eigen(exp(-(ldisMat/(1000*alpha))^2))$values)
   # Spherical
-  msph = min(eigen((1 - 1.5*ldisMat/alpha + .5*ldisMat^3/alpha^3)*(ldisMat < alpha))$values)
+  msph = min(eigen((1 - 1.5*ldisMat/(1000*alpha) + .5*ldisMat^3/(1000*alpha)^3)*(ldisMat/1000 < alpha))$values)
   # Cauchy
-  mrqu = min(eigen(1/(1 + (ldisMat/alpha)^2))$values)
+  mrqu = min(eigen(1/(1 + (ldisMat/(1000*alpha))^2))$values)
 	# Hole effect
-	mhol = sin(ldisMat/alpha)/(ldisMat/alpha)
+	mhol = sin(ldisMat/(1000*alpha))/(ldisMat/(1000*alpha))
 	diag(mhol) = rep(1, times = length(mhol[,1]))
 	mhol = min(eigen(mhol)$values)
 	exReal = rbind(exReal, data.frame(alpha = alpha,
@@ -32,17 +32,17 @@ for(i in 1:100) {
 # try various models on Euclidean distances
 EucReal = NULL
 for(i in 1:100) {
-  alpha = 40000*i^2/100^2
+  alpha = 40*i^2/100^2
   # exponential model
-  mexp = min(eigen(exp(-EdisMat/alpha))$values)
+  mexp = min(eigen(exp(-EdisMat/(1000*alpha)))$values)
   # Gaussian model
-  mgau = min(eigen(exp(-(EdisMat/alpha)^2))$values)
+  mgau = min(eigen(exp(-(EdisMat/(1000*alpha))^2))$values)
   # Spherical
-  msph = min(eigen((1 - 1.5*EdisMat/alpha + .5*EdisMat^3/alpha^3)*(EdisMat < alpha))$values)
+  msph = min(eigen((1 - 1.5*EdisMat/(1000*alpha) + .5*EdisMat^3/(1000*alpha)^3)*(EdisMat/1000 < alpha))$values)
   # Cauchy
-  mrqu = min(eigen(1/(1 + (EdisMat/alpha)^2))$values)
+  mrqu = min(eigen(1/(1 + (EdisMat/(1000*alpha))^2))$values)
 	# Hole effect
-	mhol = sin(EdisMat/alpha)/(EdisMat/alpha)
+	mhol = sin(EdisMat/(1000*alpha))/(EdisMat/(1000*alpha))
 	diag(mhol) = rep(1, times = length(mhol[,1]))
 	mhol = min(eigen(mhol)$values)
 	EucReal = rbind(EucReal, data.frame(alpha = alpha,
@@ -60,7 +60,7 @@ lines(exReal$alpha, exReal$msph, col = '#4daf4a', lwd = 3)
 lines(exReal$alpha, exReal$mrqu, col = '#984ea3', lwd = 3)
 lines(exReal$alpha, exReal$mhol, col = '#ff7f00', lwd = 3)
 lines(c(min(exReal$alpha), max(exReal$alpha)),c(0,0), lty = 2, lwd = 2)
-legend(20000,1, legend = c('Exponential','Gaussian','Spherical','Cauchy','Hole Effect'),
+legend(20,1, legend = c('Exponential','Gaussian','Spherical','Cauchy','Hole Effect'),
 	lty = c(1,1,1,1,1), lwd = c(3,3,3,3,3), cex = 2,
 	col = c('#e41a1c','#377eb8','#4daf4a','#984ea3','#ff7f00'))
 mtext('(a)', adj = -.10, padj = -.6, cex = 3)
