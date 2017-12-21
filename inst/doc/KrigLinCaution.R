@@ -35,33 +35,33 @@ options(scipen = 8)
 
 ## ----Tab-CVstats, echo= FALSE, include = FALSE, cache = TRUE-------------
   CVstats1 = as.matrix(rbind(
-      c(5.093, 14245, NA, NA, NA, unlist(CVLadExp)),
-      c(psilExpLinWLSnug, rangExpLinWLSnug, NA, nuggExpLinWLSnug, NA, unlist(CrosValExpLinWLSnug)),
-      c(psilSphLinWLS, rangSphLinWLS, NA, NA, NA, NA, NA, NA),
-      c(psilSphLinWLSnug, rangSphLinWLSnug, NA, nuggSphLinWLSnug, NA, unlist(CrosValSphLinWLSnug)),
-      c(psilGauLinWLS, rangGauLinWLS, NA, NA, NA, NA, NA, NA),
-      c(psilGauLinWLSnug, rangGauLinWLSnug, NA, nuggGauLinWLSnug, NA, unlist(CrosValGauLinWLSnug)),
-      c(psilCauLinWLS, rangCauLinWLS, NA, NA, NA, NA, NA, NA),
-      c(psilCauLinWLSnug, rangCauLinWLSnug, NA, nuggCauLinWLSnug, NA, unlist(CrosValCauLinWLSnug)),
-      c(psilHolLinWLS, rangHolLinWLS, NA, NA, NA, NA, NA, NA),
-      c(psilHolLinWLSnug, rangHolLinWLSnug, NA, nuggHolLinWLSnug, NA, NA, NA, NA),
+      c(5.093, 14.245, NA, NA, NA, unlist(CVLadExp)),
+      c(psilExpLinWLSnug, rangExpLinWLSnug/1000, NA, nuggExpLinWLSnug, NA, unlist(CrosValExpLinWLSnug)),
+      c(psilSphLinWLS, rangSphLinWLS/1000, NA, NA, NA, NA, NA, NA),
+      c(psilSphLinWLSnug, rangSphLinWLSnug/1000, NA, nuggSphLinWLSnug, NA, unlist(CrosValSphLinWLSnug)),
+      c(psilGauLinWLS, rangGauLinWLS/1000, NA, NA, NA, NA, NA, NA),
+      c(psilGauLinWLSnug, rangGauLinWLSnug/1000, NA, nuggGauLinWLSnug, NA, unlist(CrosValGauLinWLSnug)),
+      c(psilCauLinWLS, rangCauLinWLS/1000, NA, NA, NA, NA, NA, NA),
+      c(psilCauLinWLSnug, rangCauLinWLSnug/1000, NA, nuggCauLinWLSnug, NA, unlist(CrosValCauLinWLSnug)),
+      c(psilHolLinWLS, rangHolLinWLS/1000, NA, NA, NA, NA, NA, NA),
+      c(psilHolLinWLSnug, rangHolLinWLSnug/1000, NA, nuggHolLinWLSnug, NA, NA, NA, NA),
       
-      c(psilExpEucWLSnug, rangExpEucWLSnug, NA, nuggExpEucWLSnug, NA, unlist(CrosValExpEucWLSnug)),
-      c(psilSphEucWLSnug, rangSphEucWLSnug, NA, nuggSphEucWLSnug, NA, unlist(CrosValSphEucWLSnug)),
-      c(psilGauEucWLSnug, rangGauEucWLSnug, NA, nuggGauEucWLSnug, NA, unlist(CrosValGauEucWLSnug)),
-      c(psilCauEucWLSnug, rangCauEucWLSnug, NA, nuggCauEucWLSnug, NA, unlist(CrosValCauEucWLSnug)),
-      c(psilHolEucWLSnug, rangHolEucWLSnug, NA, nuggHolEucWLSnug, NA, unlist(CrosValHolEucWLSnug)),
+      c(psilExpEucWLSnug, rangExpEucWLSnug/1000, NA, nuggExpEucWLSnug, NA, unlist(CrosValExpEucWLSnug)),
+      c(psilSphEucWLSnug, rangSphEucWLSnug/1000, NA, nuggSphEucWLSnug, NA, unlist(CrosValSphEucWLSnug)),
+      c(psilGauEucWLSnug, rangGauEucWLSnug/1000, NA, nuggGauEucWLSnug, NA, unlist(CrosValGauEucWLSnug)),
+      c(psilCauEucWLSnug, rangCauEucWLSnug/1000, NA, nuggCauEucWLSnug, NA, unlist(CrosValCauEucWLSnug)),
+      c(psilHolEucWLSnug, rangHolEucWLSnug/1000, NA, nuggHolEucWLSnug, NA, unlist(CrosValHolEucWLSnug)),
       
-      c(psilExpEucREMLnug, rangExpEucREMLnug, NA, nuggExpEucREMLnug, unlist(CrosValExpEucREMLnug)),
-      c(psilSphEucREMLnug, rangSphEucREMLnug, NA, nuggSphEucREMLnug, unlist(CrosValSphEucREMLnug)),
-      c(psilGauEucREMLnug, rangGauEucREMLnug, NA, nuggGauEucREMLnug, unlist(CrosValGauEucREMLnug)),
-      c(psilCauEucREMLnug, rangCauEucREMLnug, NA, nuggCauEucREMLnug, unlist(CrosValCauEucREMLnug)),
-      c(psilHolEucREMLnug, rangHolEucREMLnug, NA, nuggHolEucREMLnug, unlist(CrosValHolEucREMLnug)),
+      c(psilExpEucREMLnug, rangExpEucREMLnug/1000, NA, nuggExpEucREMLnug, unlist(CrosValExpEucREMLnug)),
+      c(psilSphEucREMLnug, rangSphEucREMLnug/1000, NA, nuggSphEucREMLnug, unlist(CrosValSphEucREMLnug)),
+      c(psilGauEucREMLnug, rangGauEucREMLnug/1000, NA, nuggGauEucREMLnug, unlist(CrosValGauEucREMLnug)),
+      c(psilCauEucREMLnug, rangCauEucREMLnug/1000, NA, nuggCauEucREMLnug, unlist(CrosValCauEucREMLnug)),
+      c(psilHolEucREMLnug, rangHolEucREMLnug/1000, NA, nuggHolEucREMLnug, unlist(CrosValHolEucREMLnug)),
       
-	    c(sigmapRRexp, alphaRRexp, rhoRRexp, sigma0RRexp, unlist(CVRRexp)),
-	    c(sigmapRRsph, alphaRRsph, rhoRRsph, sigma0RRsph, unlist(CVRRsph)),
-	    c(sigmapRRgau, alphaRRgau, rhoRRgau, sigma0RRgau, unlist(CVRRgau)),
-	    c(sigmapRRcau, alphaRRcau, rhoRRcau, sigma0RRcau, unlist(CVRRcau))
+	    c(sigmapRRexp, alphaRRexp/1000, rhoRRexp/1000, sigma0RRexp, unlist(CVRRexp)),
+	    c(sigmapRRsph, alphaRRsph/1000, rhoRRsph/1000, sigma0RRsph, unlist(CVRRsph)),
+	    c(sigmapRRgau, alphaRRgau/1000, rhoRRgau/1000, sigma0RRgau, unlist(CVRRgau)),
+	    c(sigmapRRcau, alphaRRcau/1000, rhoRRcau/1000, sigma0RRcau, unlist(CVRRcau))
     ) 
   ) 
   Mod = c("Exp", "Exp", "Sph", "Sph", "Gau", "Gau", "Cau", "Cau", "Hol", "Hol",
@@ -133,8 +133,8 @@ options(scipen = 8)
     CVstats1[,1:4], pd, Nnv, CVstats1[,5:8])
 
   CVstats2 = as.matrix(rbind(
-      c(sigmapVCsphLin, alphaVCsphLin, alphaVCsphKnt, sigma0VCsph, unlist(CVVCsph)),
-      c(sigmapVCsphEuc, alphaVCsphEuc, NA, NA, NA, NA, NA, NA)
+      c(sigmapVCsphLin, alphaVCsphLin/1000, alphaVCsphKnt/1000, sigma0VCsph, unlist(CVVCsph)),
+      c(sigmapVCsphEuc, alphaVCsphEuc/1000, NA, NA, NA, NA, NA, NA)
     )
   )
   Mod = c("Sph", "Sph")
@@ -154,7 +154,7 @@ options(scipen = 8)
   print(
     xtable(CVstats1, 
       align = c('l',rep('l', times = length(CVstats1[1,]))),
-      digits = c(0,0,0,0,0,1,0,0,1,0,0,2,3,3,3),
+      digits = c(0,0,0,0,0,1,1,1,1,0,0,2,3,3,3),
       caption = 'Cross-validation statistics',
       label = 'tab:CVstats'
     ),
@@ -169,7 +169,7 @@ options(scipen = 8)
   print(
     xtable(CVstats2, 
       align = c('l',rep('l', times = length(CVstats2[1,]))),
-      digits = c(0,0,0,0,0,1,0,0,1,0,0,2,3,3,3)
+      digits = c(0,0,0,0,0,1,1,1,1,0,0,2,3,3,3)
     ),
     size = 'footnotesize',
     include.rownames = FALSE,
@@ -252,8 +252,8 @@ Q = eigen(Sig)$vectors
   )
 
 ## ------------------------------------------------------------------------
-Q[,1] %*% Q[,4]
-Q[,4] %*% Q[,4]
+t(Q[,1]) %*% Q[,4]
+t(Q[,4]) %*% Q[,4]
 
 ## ------------------------------------------------------------------------
 v4 = Q[,4]
