@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.9.7)  11 JAN 2018 14:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.9.7)  11 JAN 2018 14:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**KrigLinCaution
-(./KrigLinCaution.tex
+**S1
+(./S1.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -525,22 +525,21 @@ Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 (/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
-)
-(./KrigLinCaution.aux)
-\openout1 = `KrigLinCaution.aux'.
+) (./S1.aux)
+\openout1 = `S1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -636,157 +635,85 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for U+msa on input line 121.
+LaTeX Font Info:    Try loading font information for U+msa on input line 120.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 121.
+LaTeX Font Info:    Try loading font information for U+msb on input line 120.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 121.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 120.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [1
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
-
- []
-
-[1] [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16]
-[17] [18] [19] [20] [21] [22] [23] (./KrigLinCaution.bbl [24] [25] [26]
-[27] [28] [29] [30] [31] [32]) [33] [34]
-<figure/Fig-autocorrModels-1.pdf, id=138, 794.97pt x 794.97pt>
-File: figure/Fig-autocorrModels-1.pdf Graphic file (type pdf)
-
-<use figure/Fig-autocorrModels-1.pdf>
-Package pdftex.def Info: figure/Fig-autocorrModels-1.pdf used on input line 544
-.
-(pdftex.def)             Requested size: 469.75499pt x 469.76819pt.
-
-<figure/Fig-CautionEx-1.pdf, id=139, 867.24pt x 1336.995pt>
-File: figure/Fig-CautionEx-1.pdf Graphic file (type pdf)
-
-<use figure/Fig-CautionEx-1.pdf>
-Package pdftex.def Info: figure/Fig-CautionEx-1.pdf used on input line 557.
-(pdftex.def)             Requested size: 328.82706pt x 506.94133pt.
- [35
-
- <./figure/Fig-autocorrModels-1.pdf>]
-Overfull \vbox (23.44637pt too high) has occurred while \output is active []
-
-
-[36 <./figure/Fig-CautionEx-1.pdf>]
-<figure/Fig-realDatEigVals-1.pdf, id=160, 578.16pt x 794.97pt>
-File: figure/Fig-realDatEigVals-1.pdf Graphic file (type pdf)
-
-<use figure/Fig-realDatEigVals-1.pdf>
-Package pdftex.def Info: figure/Fig-realDatEigVals-1.pdf used on input line 570
-.
-(pdftex.def)             Requested size: 328.82706pt x 452.1308pt.
-
-<figure/Fig-knotLocs-1.pdf, id=161, 505.89pt x 505.89pt>
-File: figure/Fig-knotLocs-1.pdf Graphic file (type pdf)
-
-<use figure/Fig-knotLocs-1.pdf>
-Package pdftex.def Info: figure/Fig-knotLocs-1.pdf used on input line 582.
-(pdftex.def)             Requested size: 469.75499pt x 469.76265pt.
-
-<figure/Fig-empSemivar-1.pdf, id=162, 578.16pt x 794.97pt>
-File: figure/Fig-empSemivar-1.pdf Graphic file (type pdf)
-
-<use figure/Fig-empSemivar-1.pdf>
-Package pdftex.def Info: figure/Fig-empSemivar-1.pdf used on input line 593.
-(pdftex.def)             Requested size: 375.80542pt x 516.72438pt.
- [37 <./figure/Fig-realDatEigVals-1.pdf>]
-[38 <./figure/Fig-knotLocs-1.pdf>]
-Overfull \vbox (6.0294pt too high) has occurred while \output is active []
-
-
-[39 <./figure/Fig-empSemivar-1.pdf>]
-<figure/Fig-EucLinScatter-1.pdf, id=190, 578.16pt x 578.16pt>
-File: figure/Fig-EucLinScatter-1.pdf Graphic file (type pdf)
-
-<use figure/Fig-EucLinScatter-1.pdf>
-Package pdftex.def Info: figure/Fig-EucLinScatter-1.pdf used on input line 605.
-
-(pdftex.def)             Requested size: 328.82706pt x 328.82239pt.
- [40 <./figure/Fig-EucLinScatter-1.pdf>]
-[41
-
-] <figure/Fig-App4LocNetwork-1.pdf, id=207, 505.89pt x 505.89pt>
+]
+<figure/Fig-App4LocNetwork-1.pdf, id=25, 505.89pt x 505.89pt>
 File: figure/Fig-App4LocNetwork-1.pdf Graphic file (type pdf)
 
 <use figure/Fig-App4LocNetwork-1.pdf>
-Package pdftex.def Info: figure/Fig-App4LocNetwork-1.pdf used on input line 664
+Package pdftex.def Info: figure/Fig-App4LocNetwork-1.pdf used on input line 177
 .
 (pdftex.def)             Requested size: 140.92792pt x 140.93033pt.
 
 
-Package xcolor Warning: Incompatible color definition on input line 672.
+Package xcolor Warning: Incompatible color definition on input line 185.
 
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 674.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 187.
 
-Package xcolor Warning: Incompatible color definition on input line 698.
+Package xcolor Warning: Incompatible color definition on input line 211.
 
-[42 <./figure/Fig-App4LocNetwork-1.pdf>]
+[2 <./figure/Fig-App4LocNetwork-1.pdf>]
 
-Package xcolor Warning: Incompatible color definition on input line 722.
-
-
-Package xcolor Warning: Incompatible color definition on input line 758.
+Package xcolor Warning: Incompatible color definition on input line 235.
 
 
-Package xcolor Warning: Incompatible color definition on input line 780.
-
-[43]
-
-Package xcolor Warning: Incompatible color definition on input line 797.
+Package xcolor Warning: Incompatible color definition on input line 271.
 
 
-Package xcolor Warning: Incompatible color definition on input line 811.
+Package xcolor Warning: Incompatible color definition on input line 293.
 
-[44] (./KrigLinCaution.aux) ) 
+[3]
+
+Package xcolor Warning: Incompatible color definition on input line 310.
+
+
+Package xcolor Warning: Incompatible color definition on input line 324.
+
+[4] (./S1.aux) ) 
 Here is how much of TeX's memory you used:
- 13326 strings out of 493304
- 226250 string characters out of 6139872
- 391841 words of memory out of 5000000
- 16461 multiletter control sequences out of 15000+600000
- 16201 words of font info for 61 fonts, out of 8000000 for 9000
+ 13021 strings out of 493304
+ 218155 string characters out of 6139872
+ 379143 words of memory out of 5000000
+ 16167 multiletter control sequences out of 15000+600000
+ 15861 words of font info for 60 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,12n,53p,1830b,496s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on KrigLinCaution.pdf (46 pages, 2064209 bytes).
+ 49i,12n,53p,807b,371s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.
+pfb>
+Output written on S1.pdf (5 pages, 171372 bytes).
 PDF statistics:
- 285 PDF objects out of 1000 (max. 8388607)
- 201 compressed objects within 3 object streams
+ 85 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

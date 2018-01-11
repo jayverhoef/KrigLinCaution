@@ -1,4 +1,4 @@
-\begin{thebibliography}{77}
+\begin{thebibliography}{78}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
@@ -240,9 +240,16 @@ Kaluzny, S.~P., S.~C. Vega, T.~P. Cardoso and A.~A. Shelly, 1998.
 \newblock In S+SpatialStats: Users Manual for Windows and UNIX, pages 67--109.
   Springer New York, New York, NY.
 
-\bibitem[{Ladle et~al.(2017)Ladle, Avgar, Wheatley \&
+\bibitem[{Ladle et~al.(2017{\natexlab{a}})Ladle, Avgar, Wheatley \&
+  Boyce}]{Ladl:Avga:Whea:Boyc:corr:2017}
+Ladle, A., T.~Avgar, M.~Wheatley and M.~S. Boyce, 2017{\natexlab{a}}.
+\newblock Corrigendum.
+\newblock Methods in Ecology and Evolution
+  \urlprefix\url{http://dx.doi.org/10.1111/2041-210X.12905}.
+
+\bibitem[{Ladle et~al.(2017{\natexlab{b}})Ladle, Avgar, Wheatley \&
   Boyce}]{Ladl:Avga:Whea:Boyc:pred:2016}
-Ladle, A., T.~Avgar, M.~Wheatley and M.~S. Boyce, 2017.
+Ladle, A., T.~Avgar, M.~Wheatley and M.~S. Boyce, 2017{\natexlab{b}}.
 \newblock Predictive modelling of ecological patterns along linear-feature
   networks.
 \newblock Methods in Ecology and Evolution \textbf{8}(3):329--338.
@@ -447,7 +454,7 @@ Wikle, C.~K., 2002.
 \bibitem[{Wikle \& Cressie(1999)}]{Wikl:Cres:dime:1999}
 Wikle, C.~K. and N.~Cressie, 1999.
 \newblock A dimension-reduced approach to space-time kalman filtering.
-\newblock Biometrika pages 815--829.
+\newblock Biometrika \textbf{86}(4):815--829.
 
 \bibitem[{Wood et~al.(2008)Wood, Bravington \&
   Hedley}]{Wood:Brav:Hedl:soap:2008}
