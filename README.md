@@ -5,6 +5,8 @@
 
 [![Last-changedate](https://img.shields.io/badge/last%20change-2018--01--11-yellowgreen.svg)](/commits/master)
 
+[![DOI](https://zenodo.org/badge/90825285.svg)](https://zenodo.org/badge/latestdoi/90825285)
+
 # KrigLinCaution
 ## An R package in support of publication, "Kriging Models for Linear Networks and non-Euclidean Distances: Cautions and Solutions." 
 
