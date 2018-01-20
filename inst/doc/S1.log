@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.9.7)  11 JAN 2018 14:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.9.7)  11 JAN 2018 16:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -654,7 +654,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [1
 
 ]
-<figure/Fig-App4LocNetwork-1.pdf, id=25, 505.89pt x 505.89pt>
+<figure/Fig-App4LocNetwork-1.pdf, id=24, 505.89pt x 505.89pt>
 File: figure/Fig-App4LocNetwork-1.pdf Graphic file (type pdf)
 
 <use figure/Fig-App4LocNetwork-1.pdf>
@@ -689,13 +689,13 @@ Package xcolor Warning: Incompatible color definition on input line 324.
 
 [4] (./S1.aux) ) 
 Here is how much of TeX's memory you used:
- 13021 strings out of 493304
- 218155 string characters out of 6139872
- 379143 words of memory out of 5000000
- 16167 multiletter control sequences out of 15000+600000
- 15861 words of font info for 60 fonts, out of 8000000 for 9000
+ 13019 strings out of 493304
+ 218136 string characters out of 6139872
+ 378140 words of memory out of 5000000
+ 16166 multiletter control sequences out of 15000+600000
+ 15561 words of font info for 59 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,12n,53p,807b,371s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,12n,53p,807b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
@@ -706,14 +706,13 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.
-pfb>
-Output written on S1.pdf (5 pages, 171372 bytes).
+/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmtt10.pfb>
+Output written on S1.pdf (5 pages, 162636 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 81 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

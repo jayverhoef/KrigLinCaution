@@ -1,6 +1,6 @@
 %\VignetteEngine{knitr::knitr}
 % some terminal commands to copy once and scroll when needed
-% cd '/mnt/Hitachi2GB/00NMML/activePapers/KrigLinCaution/KrigLinCaution_package/KrigLinCaution/inst/doc'
+% cd '/media/jay/Hitachi2GB/00NMML/activePapers/KrigLinCaution/KrigLinCaution_package/KrigLinCaution/inst/doc'
 % cd '/home/jay/Data/KrigLinCaution/KrigLinCaution_package/KrigLinCaution/inst/doc'
 % Rscript -e "library(knitr); knit('KrigLinCaution.Rnw')"
 % Rscript -e "library(knitr); purl('KrigLinCaution.Rnw')"
@@ -19,7 +19,7 @@
 \usepackage{pdflscape}
 \usepackage{pgf}
 \usepackage{arydshln}
-\usepackage{/mnt/Hitachi2GB/shTex/mymacros}
+\usepackage{mymacros}
 %\usepackage{/home/jay/Data/shTex/mymacros}
 \usepackage{bbding}
 \usepackage{lineno}
@@ -274,7 +274,7 @@ The literature given above, with many examples, shows that replacing Euclidean d
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-<<Fig-knotLocs, echo=FALSE, include = FALSE, cache = TRUE>>=
+<<Fig-knotLocs, echo=FALSE, include = FALSE, cache = FALSE>>=
   source('Rchunks/Fig-knotLocs.R')
 @
 
@@ -664,7 +664,7 @@ Original data from \citet{Ladl:Avga:Whea:Boyc:pred:2016} were made available at 
 	\begin{figure}
 	  \centering
 	    \includegraphics[width=\linewidth]{figure/Fig-knotLocs-1.pdf}
-	  \caption{Study area from on-line data (shown as Fig. 1 in Ladle et al. 2017). All spatial locations (open circles) and knot locations (coordinates in meters) for reduced-rank methods.  Initially, k-means on x- and y-coordinates created 120 clusters with center locations given by solid blue circles, and then these were moved to nearest actual locations (solid red circles).  Note that there is some discrepancy between the map in Ladle et al. (2017) and the on-line data especially along the western and southern borders.  All analyses in this paper used the on-line data.}\label{fig:reduRank}
+	  \caption{Study area from on-line data (similar to Fig. 1 in Ladle et al. 2017). Linear network consists of roads (black lines) and trails (gray lines). Spatial locations are open circles, and knot locations (used for reduced-rank methods) are shown as solid red circles.  Initially, k-means on x- and y-coordinates created 120 clusters with center locations given by solid blue circles, and then these were moved to nearest actual locations (solid red circles).  Note that there is some discrepancy between the map in Ladle et al. (2017) and the on-line data especially along the western and southern borders.  All analyses in this paper used the on-line data.}\label{fig:reduRank}
   \end{figure}
 
 %------------------------------------------------------------------------------

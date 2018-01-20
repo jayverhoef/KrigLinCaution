@@ -9,5 +9,5 @@ Author: Jay Ver Hoef
 Description: Package in support of paper on Kriging Models for Linear Networks and non-Euclidean Distances: A Cautionary Tale and a Comment on Ladle et al.
 Version: 1.0
 Date: 2017-2-25
-Depends: MASS
+Depends: MASS, sp
 RoxygenNote: 6.0.1

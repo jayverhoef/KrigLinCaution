@@ -24,7 +24,7 @@
 \usepackage{lineno}
 \usepackage{fancyvrb}
 \usepackage[shortlabels]{enumitem}
-\linenumbers
+%\linenumbers
 \setlength{\parindent}{3em}
 %\onehalfspacing
 \doublespacing

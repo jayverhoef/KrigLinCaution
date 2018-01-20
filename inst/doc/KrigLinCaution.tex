@@ -1,6 +1,6 @@
 %\VignetteEngine{knitr::knitr}
 % some terminal commands to copy once and scroll when needed
-% cd '/mnt/Hitachi2GB/00NMML/activePapers/KrigLinCaution/KrigLinCaution_package/KrigLinCaution/inst/doc'
+% cd '/media/jay/Hitachi2GB/00NMML/activePapers/KrigLinCaution/KrigLinCaution_package/KrigLinCaution/inst/doc'
 % cd '/home/jay/Data/KrigLinCaution/KrigLinCaution_package/KrigLinCaution/inst/doc'
 % Rscript -e "library(knitr); knit('KrigLinCaution.Rnw')"
 % Rscript -e "library(knitr); purl('KrigLinCaution.Rnw')"
@@ -69,7 +69,7 @@
 \usepackage{pdflscape}
 \usepackage{pgf}
 \usepackage{arydshln}
-\usepackage{/mnt/Hitachi2GB/shTex/mymacros}
+\usepackage{mymacros}
 %\usepackage{/home/jay/Data/shTex/mymacros}
 \usepackage{bbding}
 \usepackage{lineno}
@@ -482,7 +482,7 @@ Original data from \citet{Ladl:Avga:Whea:Boyc:pred:2016} were made available at 
   Model & RR & Dis & Meth & $\sigma^2_p$ & $\alpha$ & $\eta$ & $\sigma^2_0$ & PD & Nnv & AIC & Corr & RMSPE & CI90 \\
 	\hline
 % latex table generated in R 3.4.3 by xtable 1.8-2 package
-% Thu Jan 11 14:19:29 2018
+% Sat Jan 20 09:30:49 2018
   \hline
 Exp &  & Lin &   & 5.1 & 14.2 &  &  & Y & 0 &  & 0.639 & 1.594 & 0.699 \\ 
   Exp &  & Lin & CWLS & 4.9 & 28.6 &  & 1.1 & Y & 0 &  & 0.672 & 1.483 & 0.866 \\ 
@@ -511,7 +511,7 @@ Exp &  & Lin &   & 5.1 & 14.2 &  &  & Y & 0 &  & 0.639 & 1.594 & 0.699 \\
    \hline
 
 % latex table generated in R 3.4.3 by xtable 1.8-2 package
-% Thu Jan 11 14:19:30 2018
+% Sat Jan 20 09:30:49 2018
   \hline
 Sph & Y & Lin & REML & 0.8 & 16.7 & 10.1 & 1.4 & Y & 0 & 903.35 & 0.686 & 1.453 & 0.895 \\ 
   Sph & N & Euc &   & 2.0 & 27.6 &  &  &  &  &  &  &  &  \\ 
@@ -580,7 +580,7 @@ Sph & Y & Lin & REML & 0.8 & 16.7 & 10.1 & 1.4 & Y & 0 & 903.35 & 0.686 & 1.453 
 	\begin{figure}
 	  \centering
 	    \includegraphics[width=\linewidth]{figure/Fig-knotLocs-1.pdf}
-	  \caption{Study area from on-line data (shown as Fig. 1 in Ladle et al. 2017). All spatial locations (open circles) and knot locations (coordinates in meters) for reduced-rank methods.  Initially, k-means on x- and y-coordinates created 120 clusters with center locations given by solid blue circles, and then these were moved to nearest actual locations (solid red circles).  Note that there is some discrepancy between the map in Ladle et al. (2017) and the on-line data especially along the western and southern borders.  All analyses in this paper used the on-line data.}\label{fig:reduRank}
+	  \caption{Study area from on-line data (similar to Fig. 1 in Ladle et al. 2017). Linear network consists of roads (black lines) and trails (gray lines). Spatial locations are open circles, and knot locations (used for reduced-rank methods) are shown as solid red circles.  Initially, k-means on x- and y-coordinates created 120 clusters with center locations given by solid blue circles, and then these were moved to nearest actual locations (solid red circles).  Note that there is some discrepancy between the map in Ladle et al. (2017) and the on-line data especially along the western and southern borders.  All analyses in this paper used the on-line data.}\label{fig:reduRank}
   \end{figure}
 
 %------------------------------------------------------------------------------
@@ -683,7 +683,7 @@ Let the linear distance between each connected location be 1 unit, so the distan
 \bD = \left(
 \begin{array}{cccc}
 % latex table generated in R 3.4.3 by xtable 1.8-2 package
-% Thu Jan 11 14:19:30 2018
+% Sat Jan 20 09:30:50 2018
  0 & 1 & 2 & 2 \\ 
   1 & 0 & 1 & 1 \\ 
   2 & 1 & 0 & 2 \\ 
@@ -706,7 +706,7 @@ Let the linear distance between each connected location be 1 unit, so the distan
 \bSigma = \left(
 \begin{array}{cccc}
 % latex table generated in R 3.4.3 by xtable 1.8-2 package
-% Thu Jan 11 14:19:30 2018
+% Sat Jan 20 09:30:50 2018
  1.010 & 0.895 & 0.641 & 0.641 \\ 
   0.895 & 1.010 & 0.895 & 0.895 \\ 
   0.641 & 0.895 & 1.010 & 0.641 \\ 
@@ -730,7 +730,7 @@ Let the linear distance between each connected location be 1 unit, so the distan
 \bLambda= \left(
 \begin{array}{cccc}
 % latex table generated in R 3.4.3 by xtable 1.8-2 package
-% Thu Jan 11 14:19:30 2018
+% Sat Jan 20 09:30:50 2018
  3.328 & 0.000 & 0.000 & 0.000 \\ 
   0.000 & 0.369 & 0.000 & 0.000 \\ 
   0.000 & 0.000 & 0.369 & 0.000 \\ 
@@ -742,7 +742,7 @@ Let the linear distance between each connected location be 1 unit, so the distan
 \bQ = \left(
 \begin{array}{cccc}
 % latex table generated in R 3.4.3 by xtable 1.8-2 package
-% Thu Jan 11 14:19:30 2018
+% Sat Jan 20 09:30:50 2018
  -0.480 & 0.000 & 0.816 & -0.321 \\ 
   -0.556 & -0.000 & 0.000 & 0.831 \\ 
   -0.480 & -0.707 & -0.408 & -0.321 \\ 
